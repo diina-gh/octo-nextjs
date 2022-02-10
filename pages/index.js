@@ -10,7 +10,7 @@ export default function Home() {
 
       <Header/>
 
-      <section className="w-full h-56 bg-red-100 flex flex-col justify-center px-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
+      <section className="w-full h-56 bg-red-100 bg-opacity-50 flex flex-col justify-center px-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
 
       </section>
 
