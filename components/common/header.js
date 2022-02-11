@@ -13,7 +13,7 @@ export default function Header(props) {
     const router = useRouter();
 
     return (
-        <header className="w-full h-20 bg-gray-100 bg-opacity-20 flex flex-col justify-center px-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
+        <header className="w-full h-20 bg-gray-100 bg-opacity-0 flex flex-col justify-center px-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
 
             <div className="w-full flex flex-row justify-between">
 
