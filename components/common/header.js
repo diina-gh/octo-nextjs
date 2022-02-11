@@ -4,16 +4,16 @@ import { useRouter } from 'next/router'
 import { UserIcon, ShoppingCartIcon, SearchIcon } from '@heroicons/react/outline'
 
 
-const style0 ='text-xl xl:text-2xl font-medium text-gray-800 ii-logo self-center';
-const style1 = 'font-medium text-base mr-4 text-blue-500 hover:text-blue-500 duration-700 ease-in-out cursor-pointer';
-const style2 = 'font-medium text-base mr-4 text-gray-900 hover:text-blue-500 duration-700 ease-in-out cursor-pointer';
+const style0 =' text-xl xl:text-2xl font-bold text-gray-800 ii-logo self-center';
+const style1 = 'font-medium text-lg mr-4 text-blue-600 hover:text-blue-600 duration-700 ease-in-out cursor-pointer';
+const style2 = 'font-medium text-lg mr-4 text-gray-900 hover:text-blue-600 duration-700 ease-in-out cursor-pointer';
 
 export default function Header(props) {
 
     const router = useRouter();
 
     return (
-        <header className="w-full h-20 bg-gray-100 bg-opacity-5 flex flex-col justify-center px-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
+        <header className="w-full h-20 bg-gray-100 bg-opacity-20 flex flex-col justify-center px-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
 
             <div className="w-full flex flex-row justify-between">
 
