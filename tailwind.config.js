@@ -1,4 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   mode: "jit",
@@ -7,8 +8,26 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./lib/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: false, // or 'media' or 'class'
+  ///darkMode: false, // or 'media' or 'class'
   theme: {
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      gray: colors.gray,
+      blue: colors.blue,
+      red: colors.rose,
+      pink: colors.fuchsia,
+      black: colors.black,
+      white: colors.white,
+      indigo: colors.indigo,
+      yellow: colors.amber,
+      green: colors.emerald,
+      iiyellow: '#F2C153',
+      gtblue: '#40B1C7',
+      gtred: '#DB5252',
+      gtblack: '#1B1B1B',
+      gtblack2: '#181A18'
+    },
     fontFamily: {
       cal: ["Cal Sans", "Inter var", "sans-serif"],
     },
