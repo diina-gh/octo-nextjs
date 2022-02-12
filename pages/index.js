@@ -122,23 +122,23 @@ export default function Home() {
           </div>
         </section>
 
-      <section className="w-full bg-gtblack py-16 px-4 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
+      <section className="w-full gt-bg3 py-16 px-4 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
 
-        <div className='w-full text-center text-gray-100 text-4xl font-semibold'>New Promos</div>
+        <div className='w-full text-center text-gray-100 text-4xl font-semibold leading-loose tracking-normal'>New Promos</div>
 
         <div className="w-full px-2 py-16 sm:px-0">
           <Tab.Group>
-            <Tab.List className="flex p-1 space-x-1 bg-blue-900/20 rounded-xl">
+            <Tab.List className="flex space-x-1 border-b border-gray-500 border-opacity-50">
               {Object.keys(categories).map((category) => (
                 <Tab
                   key={category}
                   className={({ selected }) =>
                     classNames(
-                      'w-full py-2.5 text-sm leading-5 font-medium text-blue-700 rounded-lg',
-                      'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
+                      'w-full py-3 text-sm leading-5 font-medium rounded-t-lg mb-minus1',
+                      'focus:outline-none focus:ring-0 ring-opacity-0',
                       selected
-                        ? 'bg-white shadow'
-                        : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
+                        ? 'text-gray-50 bg-gray-400 bg-opacity-30 shadow-sm border-b gt-border1'
+                        : 'text-gray-300 hover:bg-gray-400 hover:bg-opacity-10 hover:text-gray-200'
                     )
                   }
                 >
@@ -151,7 +151,7 @@ export default function Home() {
                 <Tab.Panel
                   key={idx}
                   className={classNames(
-                    'bg-white rounded-xl p-3',
+                    'bg-gray-400 bg-opacity-40 rounded-xl p-3',
                     'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60'
                   )}
                 >

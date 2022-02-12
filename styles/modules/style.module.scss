@@ -47,7 +47,7 @@
 }
 
 .ii-present{
-  height: calc(100vh - 85px);
+  height: calc(100vh - 5rem);
 }
 
 // .gt-bg1{
@@ -61,3 +61,15 @@
             linear-gradient(127deg, #d5e3eb, rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, #eef0f1, rgba(0,0,255,0) 70.71%);
 }
+
+.gt-border1 {
+  border-style: solid !important;
+  border-bottom-width: 2px !important;
+  border-image: linear-gradient(45deg, #5382b8, #7D584D, #88618A) 1 !important;
+}
+
+.mb-minus1{
+  margin-bottom: -1px !important;
+}
+
+
