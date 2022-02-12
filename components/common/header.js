@@ -5,8 +5,8 @@ import { UserIcon, ShoppingCartIcon, SearchIcon } from '@heroicons/react/outline
 
 
 const style0 =' text-xl xl:text-2xl font-bold text-gray-800 ii-logo self-center';
-const style1 = 'font-medium text-lg mx-3 text-blue-600 hover:text-blue-600 duration-700 ease-in-out cursor-pointer border-b-2 border-blue-600';
-const style2 = 'font-medium text-lg mx-3 text-gray-900 hover:text-blue-600 duration-700 ease-in-out cursor-pointer';
+const style1 = 'font-medium text-lg mx-3 gt-text-gradient duration-700 ease-in-out cursor-pointer gt-border1';
+const style2 = 'font-medium text-lg mx-3 text-gray-900 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer';
 
 export default function Header(props) {
 
@@ -19,9 +19,9 @@ export default function Header(props) {
 
                 <Link href='/'>
                     <div className="flex flex-row self-center cursor-pointer">
-                        <div className="w-9 self-center mr-1 cursor-pointer hover:rotate-180 duration-700 ease-in-out">
+                        {/* <div className="w-9 self-center mr-1 cursor-pointer hover:rotate-180 duration-700 ease-in-out">
                             <img className="w-full" src="images/logo/logo2.png" />
-                        </div>
+                        </div> */}
                         <div className={style0}>Gadget</div>
                     </div>
                 </ Link>
@@ -52,19 +52,19 @@ export default function Header(props) {
 
                 <div className='flex flex-row self-center'>
 
-                    <div className="w-8 h-8 rounded-full border border-blue-500 shadow-md flex flex-row justify-center cursor-pointer btn-effect1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 bg-opacity-80 hover:bg-opacity-90 active:bg-opacity-90 mr-2">
+                    <div className="w-8 h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
                             <SearchIcon className="h-4 w-4 text-white self-center"/>
                         </Link>
                     </div>
 
-                    <div className="w-8 h-8 rounded-full border border-blue-500 shadow-md flex flex-row justify-center cursor-pointer btn-effect1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 bg-opacity-80 hover:bg-opacity-90 active:bg-opacity-90 mr-2">
+                    <div className="w-8 h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
                             <ShoppingCartIcon className="h-4 w-4 text-white self-center"/>
                         </Link>
                     </div>
 
-                    <div className="w-8 h-8 rounded-full border border-blue-500 shadow-md flex flex-row justify-center cursor-pointer btn-effect1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 bg-opacity-80 hover:bg-opacity-90 active:bg-opacity-90 mr-2">
+                    <div className="w-8 h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
                             <UserIcon className="h-4 w-4 text-white self-center"/>
                         </Link>

@@ -30,17 +30,17 @@
   }
 
   .ii-logo {
-	color: #151515;
+	color: #222222;
     transition: 0.75s ease !important;
 	text-shadow: 
-		-0.0075em 0.0075em 0 mix(#f79e9e00, #3366ff93, 94%),
-		0.005em 0.005em 0 mix(#f79e9e00, #3366ff93, 60%),
-		0.01em 0.01em 0 mix(#f79e9e00, #3366ff93, 62%), 
-		0.015em 0.015em mix(#f79e9e00, #3366ff93, 64%), 
-		0.02em 0.02em 0 mix(#f79e9e00, #3366ff93, 66%), 
-		0.025em 0.025em 0 mix(#f79e9e00, #3366ff93, 68%),
-		0.03em 0.03em 0 mix(#f79e9e00, #3366ff93, 70%),
-		0.035em 0.035em 0 mix(#f79e9e23, #3366ff93, 72%);
+		-0.0075em 0.0075em 0 mix(#88618a62, #88618A, 94%),
+		0.005em 0.005em 0 mix(#88618a62, #88618A, 60%),
+		0.01em 0.01em 0 mix(#88618a62, #88618A, 62%), 
+		0.015em 0.015em mix(#88618a62, #88618A, 64%), 
+		0.02em 0.02em 0 mix(#88618a62, #88618A, 66%), 
+		0.025em 0.025em 0 mix(#88618a62, #88618A, 68%),
+		0.03em 0.03em 0 mix(#88618a62, #88618A, 70%),
+		0.035em 0.035em 0 mix(#f79e9e23, #88618A, 72%);
     &:hover{
         color: #3366ff;
     }
@@ -70,6 +70,33 @@
 
 .mb-minus1{
   margin-bottom: -1px !important;
+}
+
+.gt-btn-type1{
+  background: linear-gradient(65deg, #5382b8, #7D584D, #88618A) !important;
+  transition: 4.5s !important;
+  position: relative !important;
+
+  &:hover{
+    background: linear-gradient(65deg, #7D584D, #88618A, #5382b8) !important;
+  }
+
+}
+
+
+
+.gt-text-gradient {
+  background: -webkit-linear-gradient(65deg, #4878af, #7D584D, #7d597e) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.gt-hover-text-gradient{
+  &:hover{
+    background: -webkit-linear-gradient(65deg, #4878af, #7D584D, #7d597e) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+  }
 }
 
 
