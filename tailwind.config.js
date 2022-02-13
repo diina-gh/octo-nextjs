@@ -17,6 +17,7 @@ module.exports = {
       blue: colors.blue,
       red: colors.rose,
       pink: colors.fuchsia,
+      purple: colors.purple,
       black: colors.black,
       white: colors.white,
       indigo: colors.indigo,
@@ -26,7 +27,9 @@ module.exports = {
       gtblue: '#40B1C7',
       gtred: '#DB5252',
       gtblack: '#1B1B1B',
-      gtpurple: '#6c27d7'
+      gtpurple: '#6c27d7',
+      gtpurple2: '#BB86FC',
+      gtblue: '#2563eb'
     },
     fontFamily: {
       cal: ["Cal Sans", "Inter var", "sans-serif"],

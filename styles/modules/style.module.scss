@@ -72,9 +72,16 @@
   margin-bottom: -1px !important;
 }
 
+.btn-effect1{
+  transition: 0.5s ease;
+  &:active{
+    transform: scale(0.95);
+  }
+}
+
 .gt-btn-type1{
+  @extend .btn-effect1;
   background: linear-gradient(85deg, #2563eb, #6b51b4, #6c27d7) !important;
-  transition: 4.5s !important;
   position: relative !important;
 
   &:hover{
@@ -96,5 +103,15 @@
     -webkit-text-fill-color: transparent !important;
   }
 }
+
+.p-image{
+  max-height: 10rem;
+  max-width: 95%;
+  img{
+    max-height: 10rem;
+    max-width: 100%;
+  }
+}
+
 
 

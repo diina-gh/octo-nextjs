@@ -4,6 +4,31 @@ import Link from 'next/link'
 import HeadInfo from "../components/common/headinfo"
 import Header from "../components/common/header"
 import Footer from "../components/common/footer"
+import Product from '../components/product/product'
+
+const item = {
+    id: 1,
+    name: 'Macbook Pro',
+    category: 'Laptop',
+    price: '780 000 CFA',
+    image: "images/product/product1.png",
+}
+
+const item2 = {
+  id: 1,
+  name: 'Ipad Air',
+  category: 'Tablette',
+  price: '575 000 CFA',
+  image: "images/product/product4.png",
+}
+
+const item3 = {
+  id: 1,
+  name: 'Iphone 13 Pro',
+  category: 'Phone',
+  price: '880 000 CFA',
+  image: "images/product/product3.png",
+}
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -91,7 +116,7 @@ export default function Home() {
 
       <Header/>
 
-      <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
+      <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48">
           <div className="w-full flex flex-col md:flex-row-reverse justify-between items-center">
               <div className="w-full md:w-5/12 flex-auto">
                 <img className="w-full float-right mt-5 md:mt-0" src="images/product/image2.webp" />
@@ -110,7 +135,7 @@ export default function Home() {
                       <div className='self-center'>Commander</div>
                     </div>
 
-                    <div className='w-40 h-14 flex flex-row justify-center text-lg font-medium text-gtpurple cursor-pointer mr-2 '>
+                    <div className='w-40 h-14 flex flex-row justify-center text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer mr-2 '>
                       <div className='self-center underline'>En savoir +</div>
                     </div>
 
@@ -122,7 +147,7 @@ export default function Home() {
           </div>
         </section>
 
-      <section className="w-full gt-bg3 py-16 px-4 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
+      <section className="w-full gt-bg3 py-16 px-4 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48">
 
         <div className='w-full text-center text-gray-100 text-4xl font-semibold leading-loose tracking-normal'>New Promos</div>
 
@@ -134,10 +159,10 @@ export default function Home() {
                   key={category}
                   className={({ selected }) =>
                     classNames(
-                      'w-full py-3 text-sm leading-5 font-medium rounded-t-lg mb-minus1',
+                      'w-full py-4 text-lg leading-5 font-medium rounded-t-lg mb-minus1 tracking-normal',
                       'focus:outline-none focus:ring-0 ring-opacity-0',
                       selected
-                        ? 'text-gray-50 bg-gray-400 bg-opacity-30 shadow-sm border-b gt-border1'
+                        ? 'text-gtpurple2 bg-gray-400 bg-opacity-30 shadow-sm border-b gt-border1'
                         : 'text-gray-300 hover:bg-gray-400 hover:bg-opacity-10 hover:text-gray-200'
                     )
                   }
@@ -146,13 +171,13 @@ export default function Home() {
                 </Tab>
               ))}
             </Tab.List>
-            <Tab.Panels className="mt-5">
+            <Tab.Panels className="mt-8">
               {Object.values(categories).map((posts, idx) => (
                 <Tab.Panel
                   key={idx}
                   className={classNames(
-                    'bg-red-400 bg-opacity-10 p-3',
-                    'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60'
+                    'bg-opacity-0',
+                    'focus:outline-none focus:ring-0 ring-opacity-0'
                   )}
                 >
                   {/* <ul>
@@ -184,9 +209,33 @@ export default function Home() {
                     ))}
                   </ul> */}
 
-                  <div className='w-full'>
+                    <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-10 md:grid-cols-3 md:gap-10">
 
-                  </div>
+                        <div className="">
+                          <Product product={item} />
+                        </div>
+
+                        <div className="">
+                          <Product product={item2} />
+                        </div>
+
+                        <div className="">
+                          <Product product={item3} />
+                        </div>
+
+                        <div className="">
+                          <Product product={item} />
+                        </div>
+
+                        <div className="">
+                          <Product product={item2} />
+                        </div>
+
+                        <div className="">
+                          <Product product={item3} />
+                        </div>
+
+                    </div>
 
 
                 </Tab.Panel>
@@ -197,7 +246,7 @@ export default function Home() {
 
       </section>
 
-      <section className="w-full h-56 py-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
+      <section className="w-full h-56 py-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48">
 
 
       </section>
