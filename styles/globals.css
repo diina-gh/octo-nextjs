@@ -23,5 +23,13 @@
   background-image: url('../public/images/background/bg1.webp');
   background-size: 55% !important;
   background-repeat: no-repeat;
-  background-position: top -375px left -250px !important;
+  background-position: top -425px left -300px !important;
+}
+
+.gt-bg4 {
+  background-color: #1B1B1B;
+  background-image: url('../public/images/background/bg2.webp');
+  background-size:cover !important;
+  background-repeat: no-repeat;
+  background-position: top 0px left 0px !important;
 }

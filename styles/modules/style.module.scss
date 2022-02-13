@@ -62,9 +62,13 @@
             linear-gradient(336deg, #eef0f1, rgba(0,0,255,0) 70.71%);
 }
 
+.gt-bg-type1{
+  background: linear-gradient(85deg, #2564eb1f, #6b51b42a, #6d27d72f) !important;
+}
+
 .gt-border1 {
   border-style: solid !important;
-  border-bottom-width: 2px !important;
+  border-bottom-width: 2.5px !important;
   border-image: linear-gradient(85deg, #2563eb, #6b51b4, #6c27d7) 1 !important;
 }
 
@@ -87,7 +91,6 @@
   &:hover{
     background: linear-gradient(85deg, #6b51b4, #6c27d7, #2563eb) !important;
   }
-
 }
 
 .gt-text-gradient {

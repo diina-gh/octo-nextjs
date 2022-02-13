@@ -30,6 +30,30 @@ const item3 = {
   image: "images/product/product3.png",
 }
 
+const item4 = {
+  id: 1,
+  name: 'Smart Watch',
+  category: 'Smart Watch',
+  price: '450 000 CFA',
+  image: "images/product/product5.png",
+}
+
+const item5 = {
+id: 1,
+name: 'Homepod mini',
+category: 'Acessories',
+price: '265 000 CFA',
+image: "images/product/product6.png",
+}
+
+const item6 = {
+id: 1,
+name: 'Airpod Pro',
+category: 'Acessories',
+price: '140 000 CFA',
+image: "images/product/product7.png",
+}
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -131,7 +155,7 @@ export default function Home() {
                   <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 
-                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-lg text-lg font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
+                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-xl text-lg font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
                       <div className='self-center'>Commander</div>
                     </div>
 
@@ -145,13 +169,13 @@ export default function Home() {
 
               </div>
           </div>
-        </section>
+      </section>
 
       <section className="w-full gt-bg3 py-16 px-4 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48">
 
-        <div className='w-full text-center text-gray-100 text-4xl font-semibold leading-loose tracking-normal'>New Promos</div>
+        <div className='w-full text-center text-gray-100 text-4xl font-semibold leading-loose tracking-normal'>NOS PRODUITS</div>
 
-        <div className="w-full px-2 py-16 sm:px-0">
+        <div className="w-full px-2 py-12 sm:px-0">
           <Tab.Group>
             <Tab.List className="flex space-x-1 border-b border-gray-500 border-opacity-50">
               {Object.keys(categories).map((category) => (
@@ -171,7 +195,7 @@ export default function Home() {
                 </Tab>
               ))}
             </Tab.List>
-            <Tab.Panels className="mt-8">
+            <Tab.Panels className="mt-10">
               {Object.values(categories).map((posts, idx) => (
                 <Tab.Panel
                   key={idx}
@@ -224,15 +248,15 @@ export default function Home() {
                         </div>
 
                         <div className="">
-                          <Product product={item} />
+                          <Product product={item4} />
                         </div>
 
                         <div className="">
-                          <Product product={item2} />
+                          <Product product={item5} />
                         </div>
 
                         <div className="">
-                          <Product product={item3} />
+                          <Product product={item6} />
                         </div>
 
                     </div>
@@ -246,8 +270,86 @@ export default function Home() {
 
       </section>
 
-      <section className="w-full h-56 py-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48">
+      <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10">
+          <div className="grid grid-cols-2 gap-20 items-center">
 
+              <div className="">
+                <img className="w-full float-right mt-5 md:mt-0" src="images/product/image4.webp" />
+              </div>
+
+              <div className="">
+                
+                <div className="sm:text-center lg:text-left">
+                    <div className='w-max px-5 py-1 text-lg font-medium gt-bg-type1 rounded-sm'>
+                      <div className='gt-text-gradient'>Offres</div>
+                    </div>
+                  <h1 className="w-full text-2xl tracking-tight font-semibold text-gray-900 sm:text-4xl md:text-5xl mt-8">
+                    <span className="block xl:inline">Lorem ipsun dolor sit amet consectetur aute id magna aliqua </span>
+                  </h1>
+                  <p className="mt-6 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+                  
+                  <div className="mt-6 sm:mt-10 sm:flex sm:justify-center lg:justify-start">
+
+                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-xl text-lg font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
+                      <div className='self-center'>Commander</div>
+                    </div>
+
+                    <div className='w-40 h-14 flex flex-row justify-center text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer mr-2 '>
+                      <div className='self-center underline'>En savoir +</div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+          </div>
+      </section>
+
+
+      <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 my-10">
+          <div className="grid grid-cols-2 gap-20 items-center">
+
+              <div className="">
+                
+                <div className="sm:text-center lg:text-left">
+                    <div className='w-max px-5 py-1 text-lg font-medium gt-bg-type1 rounded-sm'>
+                      <div className='gt-text-gradient'>Nouveauté</div>
+                    </div>
+                  <h1 className="w-full text-2xl tracking-tight font-semibold text-gray-900 sm:text-4xl md:text-5xl mt-8">
+                    <span className="block xl:inline">Lorem ipsun dolor sit amet consectetur aute id magna aliqua </span>
+                  </h1>
+                  <p className="mt-6 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+                  
+                  <div className="mt-6 sm:mt-10 sm:flex sm:justify-center lg:justify-start">
+
+                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-xl text-lg font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
+                      <div className='self-center'>Commander</div>
+                    </div>
+
+                    <div className='w-40 h-14 flex flex-row justify-center text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer mr-2 '>
+                      <div className='self-center underline'>En savoir +</div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div className="">
+                <img className="w-full float-right mt-5 md:mt-0" src="images/product/image3.webp" />
+              </div>
+
+          </div>
+      </section>
+
+
+      <section className="w-full py-16 px-4 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 my-10">
+
+        <div className='w-full h-72 gt-bg4 rounded-2xl'>
+
+        </div>
 
       </section>
 
