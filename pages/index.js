@@ -94,7 +94,7 @@ export default function Home() {
       <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-44">
           <div className="w-full flex flex-col md:flex-row-reverse justify-between items-center">
               <div className="w-full md:w-5/12 flex-auto">
-                <img className="w-full float-right mt-5 md:mt-0" src="images/product/image1.webp" />
+                <img className="w-full float-right mt-5 md:mt-0" src="images/product/image2.webp" />
               </div>
               <div className="w-full md:w-7/12 flex-auto">
                 
@@ -106,11 +106,11 @@ export default function Home() {
                   <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 
-                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-lg text-base font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
+                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-lg text-lg font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
                       <div className='self-center'>Commander</div>
                     </div>
 
-                    <div className='w-40 h-14 flex flex-row justify-center text-base font-medium text-gray-700 cursor-pointer mr-2 '>
+                    <div className='w-40 h-14 flex flex-row justify-center text-lg font-medium text-gtpurple cursor-pointer mr-2 '>
                       <div className='self-center underline'>En savoir +</div>
                     </div>
 
@@ -151,11 +151,11 @@ export default function Home() {
                 <Tab.Panel
                   key={idx}
                   className={classNames(
-                    'bg-gray-400 bg-opacity-40 rounded-xl p-3',
+                    'bg-red-400 bg-opacity-10 p-3',
                     'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60'
                   )}
                 >
-                  <ul>
+                  {/* <ul>
                     {posts.map((post) => (
                       <li
                         key={post.id}
@@ -182,7 +182,13 @@ export default function Home() {
                         />
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
+
+                  <div className='w-full'>
+
+                  </div>
+
+
                 </Tab.Panel>
               ))}
             </Tab.Panels>

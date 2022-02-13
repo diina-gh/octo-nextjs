@@ -26,7 +26,7 @@ module.exports = {
       gtblue: '#40B1C7',
       gtred: '#DB5252',
       gtblack: '#1B1B1B',
-      gtblack2: '#181A18'
+      gtpurple: '#6c27d7'
     },
     fontFamily: {
       cal: ["Cal Sans", "Inter var", "sans-serif"],

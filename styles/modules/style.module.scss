@@ -65,7 +65,7 @@
 .gt-border1 {
   border-style: solid !important;
   border-bottom-width: 2px !important;
-  border-image: linear-gradient(45deg, #5382b8, #7D584D, #88618A) 1 !important;
+  border-image: linear-gradient(85deg, #2563eb, #6b51b4, #6c27d7) 1 !important;
 }
 
 .mb-minus1{
@@ -73,27 +73,25 @@
 }
 
 .gt-btn-type1{
-  background: linear-gradient(65deg, #5382b8, #7D584D, #88618A) !important;
+  background: linear-gradient(85deg, #2563eb, #6b51b4, #6c27d7) !important;
   transition: 4.5s !important;
   position: relative !important;
 
   &:hover{
-    background: linear-gradient(65deg, #7D584D, #88618A, #5382b8) !important;
+    background: linear-gradient(85deg, #6b51b4, #6c27d7, #2563eb) !important;
   }
 
 }
 
-
-
 .gt-text-gradient {
-  background: -webkit-linear-gradient(65deg, #4878af, #7D584D, #7d597e) !important;
+  background: -webkit-linear-gradient(85deg,#2563eb, #6b51b4, #6c27d7) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 
 .gt-hover-text-gradient{
   &:hover{
-    background: -webkit-linear-gradient(65deg, #4878af, #7D584D, #7d597e) !important;
+    background: -webkit-linear-gradient(85deg, #2563eb, #6b51b4, #6c27d7) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
   }
