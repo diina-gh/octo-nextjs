@@ -146,26 +146,30 @@ export default function Home() {
               <div className="w-full md:w-5/12 flex-auto">
                 <img className="w-full float-right mt-5 md:mt-0" src="images/product/image2.webp" />
               </div>
-              <div className="w-full md:w-7/12 flex-auto">
+
+              <div className="w-full md:w-7/12 flex-auto mt-4 md:mt-0">
                 
                 <div className="sm:text-center lg:text-left">
-                  <h1 className="w-4/5 text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl">
-                    <span className="block xl:inline">Lorem ipsun dolor sit</span>
+
+                  <h1 className="w-full md:w-4/5 text-2xl sm:text-4xl md:text-6xl tracking-tight font-bold text-gray-900">
+                    <span className="block xl:inline">Lorem ipsun dolor</span>
                     <span className="block text-blue-600 gt-text-gradient xl:inline"> amet consectetur</span>
                   </h1>
-                  <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-                  <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 
-                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-xl text-lg font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
+                  <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+
+                  <div className="mt-5 sm:mt-8 flex flex-row justify-start">
+
+                    <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center rounded-md shadow-xl text-base md:text-lg font-medium text-white gt-btn-type1 cursor-pointer mr-2'>
                       <div className='self-center'>Commander</div>
                     </div>
 
-                    <div className='w-40 h-14 flex flex-row justify-center text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer mr-2 '>
+                    <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center text-base md:text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer'>
                       <div className='self-center underline'>En savoir +</div>
                     </div>
 
-                    
                   </div>
+
                 </div>
 
               </div>
@@ -174,9 +178,9 @@ export default function Home() {
 
       <section className="w-full gt-bg3 py-16 px-4 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48">
 
-        <div className='w-full text-center text-gtpurple2 text-4xl font-semibold leading-loose tracking-normal'>NOS PRODUITS</div>
+        <div className='w-full text-center text-gtpurple2 text-2xl md:text-3xl lg:text-4xl font-semibold leading-loose tracking-normal'>NOS PRODUITS</div>
 
-        <div className="w-full px-2 py-12 sm:px-0">
+        <div className="w-full px-2 py-10 md:py-12 sm:px-0">
           <Tab.Group>
             <Tab.List className="flex space-x-1 border-b border-gray-500 border-opacity-50">
               {Object.keys(categories).map((category) => (
@@ -184,7 +188,7 @@ export default function Home() {
                   key={category}
                   className={({ selected }) =>
                     classNames(
-                      'w-full py-4 text-lg leading-5 font-medium rounded-t-lg mb-minus1 tracking-normal',
+                      'w-full py-2 md:py-4 text-sm md:text-lg leading-5 font-medium rounded-t-lg mb-minus1 tracking-normal',
                       'focus:outline-none focus:ring-0 ring-opacity-0',
                       selected
                         ? 'text-gtpurple2 bg-gray-400 bg-opacity-30 shadow-sm border-b gt-border1'
@@ -272,30 +276,30 @@ export default function Home() {
       </section>
 
       <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10">
-          <div className="grid grid-cols-2 gap-20 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 items-center">
 
               <div className="">
                 <img className="w-full float-right mt-5 md:mt-0" src="images/product/image4.webp" />
               </div>
 
-              <div className="">
+              <div className="mt-4 md:mt-0">
                 
                 <div className="sm:text-center lg:text-left">
                     <div className='w-max px-5 py-1 text-base font-medium gt-bg-type1 rounded-sm'>
                       <div className='gt-text-gradient'>Offres</div>
                     </div>
-                  <h1 className="w-full text-2xl tracking-tight font-semibold text-gray-900 sm:text-4xl md:text-5xl mt-8">
+                  <h1 className="w-full text-2xl sm:text-4xl md:text-6xl tracking-tight font-semibold text-gray-900 mt-8">
                     <span className="block xl:inline">Lorem ipsun dolor sit amet consectetur aute magna aliqua </span>
                   </h1>
                   <p className="mt-6 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
                   
-                  <div className="mt-6 sm:mt-10 sm:flex sm:justify-center lg:justify-start">
+                  <div className="mt-6 sm:mt-10 flex flex-row justify-start">
 
-                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-xl text-lg font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
+                    <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center rounded-md shadow-xl text-base md:text-lg font-medium text-white gt-btn-type1 cursor-pointer mr-2'>
                       <div className='self-center'>Commander</div>
                     </div>
 
-                    <div className='w-40 h-14 flex flex-row justify-center text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer mr-2 '>
+                    <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center text-base md:text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer'>
                       <div className='self-center underline'>En savoir +</div>
                     </div>
 
@@ -308,27 +312,30 @@ export default function Home() {
       </section>
 
 
-      <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 my-10">
-          <div className="grid grid-cols-2 gap-20 items-center">
+      <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 my-5  md:my-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 items-center">
 
               <div className="">
                 
                 <div className="sm:text-center lg:text-left">
-                    <div className='w-max px-5 py-1 text-base font-medium gt-bg-type1 rounded-sm'>
-                      <div className='gt-text-gradient'>Nouveauté</div>
-                    </div>
-                  <h1 className="w-full text-2xl tracking-tight font-semibold text-gray-900 sm:text-4xl md:text-5xl mt-8">
+
+                  <div className='w-max px-5 py-1 text-base font-medium gt-bg-type1 rounded-sm'>
+                    <div className='gt-text-gradient'>Nouveauté</div>
+                  </div>
+
+                  <h1 className="w-full text-2xl sm:text-4xl md:text-6xl tracking-tight font-semibold text-gray-900 mt-8">
                     <span className="block xl:inline">Lorem ipsun dolor sit amet consectetur aute magna aliqua </span>
                   </h1>
+
                   <p className="mt-6 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
                   
-                  <div className="mt-6 sm:mt-10 sm:flex sm:justify-center lg:justify-start">
+                  <div className="mt-6 sm:mt-10 flex flex-row justify-start">
 
-                    <div className='w-40 h-14 flex flex-row justify-center rounded-md shadow-xl text-lg font-medium text-white gt-btn-type1 gt-slide cursor-pointer mr-2'>
+                    <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center rounded-md shadow-xl text-base md:text-lg font-medium text-white gt-btn-type1 cursor-pointer mr-2'>
                       <div className='self-center'>Commander</div>
                     </div>
 
-                    <div className='w-40 h-14 flex flex-row justify-center text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer mr-2 '>
+                    <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center text-base md:text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer'>
                       <div className='self-center underline'>En savoir +</div>
                     </div>
 
@@ -338,7 +345,7 @@ export default function Home() {
 
               </div>
 
-              <div className="">
+              <div className="mt-4 md:mt-0">
                 <img className="w-full float-right mt-5 md:mt-0" src="images/product/image3.webp" />
               </div>
 

@@ -53,7 +53,9 @@
 }
 
 .ii-present{
-  height: calc(100vh - 5rem);
+  height: fit-content;
+  padding-bottom: 4rem;
+
 }
 
 // .gt-bg1{
@@ -122,5 +124,42 @@
   }
 }
 
+
+
+
+/** sm  **/
+@media (min-width: 640px) {
+
+
+}
+
+/** md  **/
+@media (min-width: 768px) {
+
+  .casper1{
+    display: none;
+  }
+
+}
+
+/** lg **/
+@media (min-width: 1024px) {
+
+  .ii-present{
+    height: calc(100vh - 5rem);
+    padding-bottom: 0px;
+  }
+
+}
+
+/** xl **/
+@media (min-width: 1280px) {
+  
+}
+
+/** 2xl **/
+@media (min-width: 1536px) {
+  
+}
 
 

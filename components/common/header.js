@@ -4,9 +4,9 @@ import { useRouter } from 'next/router'
 import { UserIcon, ShoppingCartIcon, SearchIcon } from '@heroicons/react/outline'
 
 
-const style0 =' text-xl xl:text-2xl font-bold text-gray-800 ii-logo self-center';
-const style1 = 'font-medium text-lg mx-3 gt-text-gradient duration-700 ease-in-out cursor-pointer gt-border1';
-const style2 = 'font-medium text-lg mx-3 text-gray-900 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer';
+const style0 =' text-2xl xl:text-3xl font-bold gt-text-gradient self-center';
+const style1 = 'font-medium text-lg mx-3 hidden md:display-block gt-text-gradient duration-700 ease-in-out cursor-pointer gt-border1';
+const style2 = 'font-medium text-lg mx-3 hidden md:display-block text-gray-900 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer';
 
 export default function Header(props) {
 
@@ -52,21 +52,21 @@ export default function Header(props) {
 
                 <div className='flex flex-row self-center'>
 
-                    <div className="w-8 h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
+                    <div className="w-6 md:w-8 h-6 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
-                            <SearchIcon className="h-4 w-4 text-white self-center"/>
+                            <SearchIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                         </Link>
                     </div>
 
-                    <div className="w-8 h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
+                    <div className="w-6 md:w-8 h-6 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
-                            <ShoppingCartIcon className="h-4 w-4 text-white self-center"/>
+                            <ShoppingCartIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                         </Link>
                     </div>
 
-                    <div className="w-8 h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
+                    <div className="w-6 md:w-8 h-6 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
-                            <UserIcon className="h-4 w-4 text-white self-center"/>
+                            <UserIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                         </Link>
                     </div>
 
