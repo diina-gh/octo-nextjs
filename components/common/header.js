@@ -5,8 +5,8 @@ import { UserIcon, ShoppingCartIcon, SearchIcon } from '@heroicons/react/outline
 
 
 const style0 =' text-2xl xl:text-3xl font-bold gt-text-gradient self-center';
-const style1 = 'font-medium text-lg mx-3 hidden md:display-block gt-text-gradient duration-700 ease-in-out cursor-pointer gt-border1';
-const style2 = 'font-medium text-lg mx-3 hidden md:display-block text-gray-900 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer';
+const style1 = 'font-medium text-lg mx-3 hidden md:block gt-text-gradient duration-700 ease-in-out cursor-pointer gt-border1';
+const style2 = 'font-medium text-lg mx-3 hidden md:block text-gray-900 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer';
 
 export default function Header(props) {
 
