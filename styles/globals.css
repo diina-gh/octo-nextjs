@@ -28,8 +28,8 @@
 
 .gt-bg4 {
   background-color: #1B1B1B;
-  /* background-image: url('../public/images/background/bg2.webp');
-  background-size:cover !important;
+  background-image: url('../public/images/background/bg2.webp');
+  background-size:200% !important;
   background-repeat: no-repeat;
-  background-position: top 0px left 0px !important; */
+  background-position: top -100px left 0px !important;
 }

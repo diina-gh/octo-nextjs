@@ -24,6 +24,12 @@
     background: rgba(85, 85, 85, 0.76); 
   }
 
+  button:focus {outline:0 !important;}
+  input:focus {outline:0 !important;}
+  textarea:focus {outline:0 !important;}
+  textarea {resize: none !important;}
+
+
   html,body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
