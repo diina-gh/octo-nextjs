@@ -313,9 +313,13 @@ export default function Home() {
 
 
       <section className="flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 my-5  md:my-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 items-center">
+          <div className="flex flex-col md:flex-row-reverse justify-between items-center">
 
-              <div className="">
+             <div className="w-full md:w-5/12 flex-auto">
+                <img className="w-full float-right mt-5 md:mt-0" src="images/product/image3.webp" />
+              </div>
+
+              <div className="w-full md:w-7/12 flex-auto mt-4 md:mt-0">
                 
                 <div className="sm:text-center lg:text-left">
 
@@ -345,9 +349,6 @@ export default function Home() {
 
               </div>
 
-              <div className="mt-4 md:mt-0">
-                <img className="w-full float-right mt-5 md:mt-0" src="images/product/image3.webp" />
-              </div>
 
           </div>
       </section>
