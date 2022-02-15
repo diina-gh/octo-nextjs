@@ -32,11 +32,11 @@
   background-image: url('https://raw.githubusercontent.com/diina-gh/owid-covid/main/background/bg1.webp');
   background-size: 310% !important;
   background-repeat: no-repeat;
-  background-position: top -360px left -300px fixed !important;
+  background-position: top -360px left -300px !important;
   background-attachment:fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: 310%;
+  -moz-background-size: 310%;
+  -o-background-size: 310%;
 }
 
 /** sm  **/
