@@ -13,9 +13,9 @@ export default function Footer(props) {
                     <div className="col-span-2 md:col-span-1 mb-3 md:mb-0">
                         <div className="w-full flex flex-row justify-center md:justify-start mb-3">
                             <div className="">
-                                <a href="/" className="block lg:inline-block text-3xl font-bold mt-lg-0 mr-0 mr-md-10 no-underline cursor-pointer text-gray-200">
+                                <Link href="/" className="block lg:inline-block text-3xl font-bold mt-lg-0 mr-0 mr-md-10 no-underline cursor-pointer text-gray-200">
                                     Gadget
-                                </a>
+                                </Link>
                             </div>
                         </div>
 
