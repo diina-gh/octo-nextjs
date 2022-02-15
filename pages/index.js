@@ -299,8 +299,8 @@ export default function Home() {
                       <div className='self-center'>Commander</div>
                     </div>
 
-                    <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center text-base md:text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer'>
-                      <div className='self-center underline'>En savoir +</div>
+                    <div className='px-6 h-12 md:h-14 flex flex-row justify-center text-base md:text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer'>
+                      <div className='self-center underline'>Voir +</div>
                     </div>
 
                   </div>
@@ -335,8 +335,8 @@ export default function Home() {
                       <div className='self-center'>Commander</div>
                     </div>
 
-                    <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center text-base md:text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer'>
-                      <div className='self-center underline'>En savoir +</div>
+                    <div className='px-6 h-12 md:h-14 flex flex-row justify-center text-base md:text-lg font-medium text-gtpurple hover:text-gtblue duration-700 ease-in-out cursor-pointer'>
+                      <div className='self-center underline'>Voir +</div>
                     </div>
 
                   </div>

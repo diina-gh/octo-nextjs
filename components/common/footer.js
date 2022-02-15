@@ -78,7 +78,7 @@ export default function Footer(props) {
                 </div>
 
                 <div className="text-center text-xs text-gray-300 font-normal mt-20"> © 2022
-                    <span className="text-gray-200 ml-1">Gadget</span> | Created by <a className="cursor-pointer text-gray-200 hover:text-gray-50 no-underline hover:underline transition duration-700 ease-in-out" href="https://www.linkedin.com/in/seydina-gueye-596b051b0/" target="_blank">Seydina GUEYE</a>
+                    <span className="text-gray-200 ml-1">Gadget</span> | Created by <Link className="cursor-pointer text-gray-200 hover:text-gray-50 no-underline hover:underline transition duration-700 ease-in-out" href="https://www.linkedin.com/in/seydina-gueye-596b051b0/" target="_blank">Seydina GUEYE</Link>
                 </div>
                 
             </div>
