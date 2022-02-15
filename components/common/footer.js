@@ -25,7 +25,7 @@ export default function Footer(props) {
 
                         <div className="text-gray-300 flex flex-row justify-center md:justify-start">
                             <div className="text-xs flex flex-row">
-                                <Link href={'https://web.facebook.com/Iris-Academy-102645905576715/?_rdc=1&_rdr'} >
+                                <Link href={'https://web.facebook.com'} >
                                     <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-row justify-center mr-3 cursor-pointer">
                                         <div className="self-center"><FaceIcon/></div>
                                     </div>
