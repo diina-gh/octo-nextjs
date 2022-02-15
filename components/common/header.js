@@ -52,19 +52,19 @@ export default function Header(props) {
 
                 <div className='flex flex-row self-center'>
 
-                    <div className="w-6 md:w-8 h-6 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
+                    <div className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
                             <SearchIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                         </Link>
                     </div>
 
-                    <div className="w-6 md:w-8 h-6 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
+                    <div className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
                             <ShoppingCartIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                         </Link>
                     </div>
 
-                    <div className="w-6 md:w-8 h-6 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
+                    <div className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <Link  href={'/'} >
                             <UserIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                         </Link>
