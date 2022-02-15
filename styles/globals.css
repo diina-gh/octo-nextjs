@@ -33,10 +33,7 @@
   background-size: 310% !important;
   background-repeat: no-repeat;
   background-position: top -360px left -300px !important;
-  background-attachment:fixed;
-  -webkit-background-size: 310%;
-  -moz-background-size: 310%;
-  -o-background-size: 310%;
+  /* background-attachment:fixed; */
 }
 
 /** sm  **/
@@ -51,6 +48,7 @@
   .gt-bg4 {
     background-size: 100% !important;
     background-position: top -450px left 0px !important;
+    background-attachment:fixed;
   }
 
   .gt-bg3 {
