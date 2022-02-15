@@ -1,6 +1,10 @@
 import React, { Component, useState } from 'react';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import FaceIcon from '../icons/faceIcon';
+import InstaIcon from '../icons/instaIcon';
+import LkdnIcon from '../icons/lkdnIcon';
+import TwitterIcon from '../icons/twitterIcon';
 
 export default function Footer(props) {
     return (
@@ -22,23 +26,23 @@ export default function Footer(props) {
                         <div className="text-gray-300 flex flex-row justify-center md:justify-start">
                             <div className="text-xs flex flex-row">
                                 <Link href={'https://web.facebook.com/Iris-Academy-102645905576715/?_rdc=1&_rdr'} >
-                                    <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-col justify-center mr-2 cursor-pointer">
-                                        <div className="w-full text-center"><span className="fab fa-facebook-f"></span></div>
+                                    <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-row justify-center mr-3 cursor-pointer">
+                                        <div className="self-center"><FaceIcon/></div>
                                     </div>
                                 </Link>
-                                <Link href={'https://twitter.com/IrisAcademy1'} >
-                                    <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-col justify-center mr-2 cursor-pointer">
-                                        <div className="w-full text-center"><span className="fab fa-twitter"></span></div>
+                                <Link href={'https://twitter.com'} >
+                                    <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-row justify-center mr-3 cursor-pointer">
+                                        <div className="self-center"><TwitterIcon /></div>
                                     </div>
                                 </Link>
-                                <Link href={'https://www.instagram.com/invites/contact/?i=1dx6manw7yab9&utm_content=n188ren'} >
-                                    <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-col justify-center mr-2 cursor-pointer">
-                                        <div className="w-full text-center"><span className="fab fa-instagram"></span></div>
+                                <Link href={'https://www.instagram.com'} >
+                                    <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-row justify-center mr-3 cursor-pointer">
+                                        <div className="self-center"><InstaIcon/></div>
                                     </div>
                                 </Link>
-                                <Link href={'https://www.linkedin.com/company/iris-academy-sn'} >
-                                    <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-col justify-center mr-2 cursor-pointer">
-                                        <div className="w-full text-center"><span className="fab fa-linkedin-in"></span></div>
+                                <Link href={'https://www.linkedin.com'} >
+                                    <div className="ii-social w-6 h-6 border border-gray-300 rounded-full flex flex-row justify-center mr-3 cursor-pointer">
+                                        <div className="self-center"><LkdnIcon/></div>
                                     </div>
                                 </Link>
                                 
