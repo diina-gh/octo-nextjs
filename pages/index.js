@@ -238,7 +238,8 @@ export default function Home() {
                     ))}
                   </ul> */}
 
-                    <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-10 md:grid-cols-3 md:gap-10">
+                    <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-10 md:grid-cols-4 md:gap-6">
+
 
                         <div className="">
                           <Product product={item} />
@@ -262,6 +263,14 @@ export default function Home() {
 
                         <div className="">
                           <Product product={item6} />
+                        </div>
+
+                        <div className="">
+                          <Product product={item3} />
+                        </div>
+
+                        <div className="">
+                          <Product product={item4} />
                         </div>
 
                     </div>
