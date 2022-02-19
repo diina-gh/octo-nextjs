@@ -1,7 +1,7 @@
 
   .swiper-type1{
     width: 100% !important;
-    height: 25rem !important;
+    height: 22rem !important;
     background-color: #6b51b427;
   }
 
@@ -13,7 +13,7 @@
 
   .swiper-type2{
     width: 100% !important;
-    height: 7.5rem !important;
+    height: 5.5rem !important;
   }
 
   .slider-type2{
@@ -42,6 +42,14 @@
 
 /** md  **/
 @media (min-width: 768px) {
+
+  .swiper-type1{
+    height: 25rem !important;
+  }
+
+  .swiper-type2{
+    height: 7.5rem !important;
+  }
 
 }
 

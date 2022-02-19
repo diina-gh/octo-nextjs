@@ -83,20 +83,20 @@
 }
 
 .p-image2{
-  max-height: 15rem;
+  max-height: 12rem;
   max-width: 95%;
   img{
-    max-height: 15rem;
+    max-height: 12rem;
     max-width: 100%;
   }
 }
 
 
 .p-image3{
-  max-height: 4.5rem;
+  max-height: 2.5rem;
   max-width: 95%;
   img{
-    max-height: 4.5rem;
+    max-height: 2.5rem;
     max-width: 100%;
   }
 }
@@ -119,9 +119,23 @@
 
   .p-image{
     max-height: 8rem;
-    max-width: 95%;
     img{
       max-height: 8rem;
+    }
+  }
+
+  .p-image2{
+    max-height: 15rem;
+    img{
+      max-height: 15rem;
+    }
+  }
+  
+  
+  .p-image3{
+    max-height: 4.5rem;
+    img{
+      max-height: 4.5rem;
     }
   }
 

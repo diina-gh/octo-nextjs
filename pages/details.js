@@ -7,6 +7,8 @@ import Newsletter from '../components/common/newsletter'
 import ProductGalery from '../components/product/productGalery'
 import VariantType1 from '../components/product/variantType1'
 import VariantType2 from '../components/product/variantType2'
+import ButtonType1 from '../components/ui/buttonType1'
+import ButtonType2 from '../components/ui/buttonType2'
 
 const tailles = [
   {
@@ -110,9 +112,9 @@ export default function Home() {
                 </div>
 
                 <div className='mt-4 flex flex-row'>
-                <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center rounded-md shadow-xl text-base md:text-lg font-medium text-white gt-btn-type1 cursor-pointer mr-2'>
-                      <div className='self-center'>Commander</div>
-                    </div>
+                  <ButtonType1 />
+                  <div className='w-4'></div>
+                  <ButtonType2 />
                 </div>
 
 

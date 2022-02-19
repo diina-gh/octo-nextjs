@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link'
-import { UserIcon, ShoppingCartIcon, SearchIcon } from '@heroicons/react/outline'
+import { ShoppingCartIcon } from '@heroicons/react/outline'
 
 
 
