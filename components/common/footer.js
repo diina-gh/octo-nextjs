@@ -18,7 +18,7 @@ export default function Footer(props) {
                         <div className="w-full flex flex-row justify-center md:justify-start mb-3">
                             <div className="">
                                 <span className="block lg:inline-block text-3xl font-bold mt-lg-0 mr-0 mr-md-10 no-underline cursor-pointer text-gray-200">
-                                    Gadget
+                                    Untitled
                                 </span>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ export default function Footer(props) {
                 </div>
 
                 <div className="text-center text-xs text-gray-300 font-normal mt-20"> © 2022
-                    <span className="text-gray-200 ml-1">Gadget</span> | Created by <Link className="cursor-pointer text-gray-200 hover:text-gray-50 no-underline hover:underline transition duration-700 ease-in-out" href="https://www.linkedin.com/in/seydina-gueye-596b051b0/" target="_blank">Seydina GUEYE</Link>
+                    <span className="text-gray-200 ml-1">Untitled</span> | Created by <Link className="cursor-pointer text-gray-200 hover:text-gray-50 no-underline hover:underline transition duration-700 ease-in-out" href="https://www.linkedin.com/in/seydina-gueye-596b051b0/" target="_blank">Seydina GUEYE</Link>
                 </div>
                 
             </div>

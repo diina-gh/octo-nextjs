@@ -112,19 +112,14 @@ export default function Home() {
                 </div>
 
                 <div className='mt-5 flex flex-row'>
-                  <ButtonType1 text="Ajouter au panier" />
-                  <div className='w-3 md:w-4'></div>
+                  <ButtonType1 text="Ajouter au panier" mr="8px" />
                   <ButtonType2 text="Favoris" />
                 </div>
-
 
               </div>
 
           </div>
       </section>
-
-
-
 
       <Newsletter />
 

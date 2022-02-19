@@ -12,8 +12,8 @@ import Newsletter from '../components/common/newsletter'
 const opening1 = {
   id: 1,
   image: 'images/product/image2.webp',
-  title: 'Lorem ipsum dolor sit amet consectetur',
-  description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.',
+  title: "iPad Air 64 Go Wi-Fi 4ème génération 2020",
+  description: "Polyvalent. Magique. Tout en puissance. Tout en couleurs. Plus coloré. Encore plus doué. iPad Air Superbe écran Liquid Retina de 10,9 pouces avec technologie True Tone pour une expérience visuelle encore plus confortable",
   category: 'Ipad',
   brand: 'Apple'
 }
