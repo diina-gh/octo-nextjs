@@ -92,8 +92,8 @@ export default function Home() {
 
               <div className="mt-4 md:mt-0">
                 
-                <div className='w-full text-xl md:text-2xl font-bold'>Macbook Pro</div>
-                <div className='w-full text-gray-400 text-base font-medium'>Ordinateurs</div>
+                <div className='w-full text-xl md:text-2xl font-bold'>Apple MacBook Air</div>
+                <div className='w-full text-gray-400 text-base tracking-wide font-medium'>MacBook - Apple</div>
                 <div className='w-full text-xl md:text-2xl font-bold truncate mt-2'>780 000 CFA</div>
 
                 {/* <div className='mt-4'>
