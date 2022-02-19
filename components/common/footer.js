@@ -1,10 +1,10 @@
 import React, { Component, useState } from 'react';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import FaceIcon from '../icons/faceIcon';
-import InstaIcon from '../icons/instaIcon';
-import LkdnIcon from '../icons/lkdnIcon';
-import TwitterIcon from '../icons/twitterIcon';
+import FaceIcon from '../ui/icons/faceIcon';
+import InstaIcon from '../ui/icons/instaIcon';
+import LkdnIcon from '../ui/icons/lkdnIcon';
+import TwitterIcon from '../ui/icons/twitterIcon';
 
 export default function Footer(props) {
     return (
