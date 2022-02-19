@@ -7,6 +7,7 @@ import Newsletter from '../components/common/newsletter'
 import ProductGalery from '../components/product/productGalery'
 import VariantType1 from '../components/product/variantType1'
 import VariantType2 from '../components/product/variantType2'
+import Console from '../components/product/console'
 import ButtonType1 from '../components/ui/Buttons/buttonType1'
 import ButtonType2 from '../components/ui/Buttons/buttonType2'
 
@@ -109,6 +110,14 @@ export default function Home() {
                 <div className='mt-4'>
                   <div className='w-full text-base font-medium mb-2'>Choisir une couleur</div>
                   <VariantType2 variant_types={colors} />
+                </div>
+
+                <div className='mt-4'>
+                  <div className='w-full text-base font-medium mb-2'>Quantité</div>
+                  <div className='flex flex-row'>
+                    <Console />
+                    <div className='text-base font-normal text-gray-500 self-center ml-3'>(1 produit(s) ajouté(s))</div>
+                  </div>
                 </div>
 
                 <div className='mt-5 flex flex-row'>
