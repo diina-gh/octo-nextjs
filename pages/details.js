@@ -5,106 +5,116 @@ import Header from "../components/common/header"
 import Footer from "../components/common/footer"
 import Newsletter from '../components/common/newsletter'
 import ProductGalery from '../components/product/productGalery'
+import VariantType1 from '../components/product/variantType1'
+import VariantType2 from '../components/product/variantType2'
 
+const tailles = [
+  {
+    id: 1,
+    value:"XS"
+  },
+  {
+    id: 2,
+    value:"S"
+  },
+  {
+    id: 3,
+    value:"M"
+  },
+  {
+    id: 4,
+    value:"L"
+  },
+  {
+    id: 5,
+    value: 'XL'
+  },
+  {
+    id: 6,
+    value: 'XXL'
+  }
+]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+const memoires = [
+  {
+    id: 1,
+    value: 32
+  },
+  {
+    id: 2,
+    value: 64
+  },
+  {
+    id: 3,
+    value: 128
+  },
+  {
+    id: 4,
+    value: 256
+  }
+]
+
+const colors = [
+  {
+    id: 1,
+    value: '#a52732'
+  },
+  {
+    id: 2,
+    value: 'gray'
+  },
+  {
+    id: 3,
+    value: '#6c27d7'
+  },
+  {
+    id: 4,
+    value: '#222222'
+  }
+]
 
 export default function Home() {
 
-  let [categories] = useState({
-
-    Téléphone: [
-      {
-        id: 1,
-        title: 'Does drinking coffee make you smarter?',
-        date: '5h ago',
-        commentCount: 5,
-        shareCount: 2,
-      },
-      {
-        id: 2,
-        title: "So you've bought coffee... now what?",
-        date: '2h ago',
-        commentCount: 3,
-        shareCount: 2,
-      },
-    ],
-
-    Tablette: [
-      {
-        id: 1,
-        title: 'Is tech making coffee better or worse?',
-        date: 'Jan 7',
-        commentCount: 29,
-        shareCount: 16,
-      },
-      {
-        id: 2,
-        title: 'The most innovative things happening in coffee',
-        date: 'Mar 19',
-        commentCount: 24,
-        shareCount: 12,
-      },
-    ],
-
-    Ordinateur: [
-      {
-        id: 1,
-        title: 'Ask Me Anything: 10 answers to your questions about coffee',
-        date: '2d ago',
-        commentCount: 9,
-        shareCount: 5,
-      },
-      {
-        id: 2,
-        title: "The worst advice we've ever heard about coffee",
-        date: '4d ago',
-        commentCount: 1,
-        shareCount: 2,
-      },
-    ],
-
-    Montre: [
-      {
-        id: 1,
-        title: 'Ask Me Anything: 10 answers to your questions about coffee',
-        date: '2d ago',
-        commentCount: 9,
-        shareCount: 5,
-      },
-      {
-        id: 2,
-        title: "The worst advice we've ever heard about coffee",
-        date: '4d ago',
-        commentCount: 1,
-        shareCount: 2,
-      },
-    ],
-
-  })
-
-
   return (
-    <div className="app-container gt-bg1">
+    <div className="app-container gt-bg1 text-gtblack">
 
       <HeadInfo title= 'Title here' description='description here'/>
 
       <Header/>
 
-      <section className="flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10">
+      <section className="bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-4">
 
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-14">
 
-              <div className="">
-                <ProductGalery />
-              </div>
+              <ProductGalery />
 
               <div className="mt-4 md:mt-0">
                 
-                <div className='w-full text-gtblack text-lg md:text-2xl font-semibold truncate'>Homepod mini</div>
-                <div className='w-full text-gray-400 text-base font-medium'>Accessoires</div>
+                <div className='w-full text-xl md:text-2xl font-bold'>Macbook Pro</div>
+                <div className='w-full text-gray-400 text-base font-medium'>Ordinateurs</div>
+                <div className='w-full text-xl md:text-2xl font-bold truncate mt-2'>780 000 CFA</div>
+
+                {/* <div className='mt-4'>
+                  <div className='w-full text-base font-medium mb-2'>Choisir une tailles</div>
+                  <VariantType1 variant_types={tailles} />
+                </div> */}
+
+                <div className='mt-4'>
+                  <div className='w-full text-base font-medium mb-2'>Choisir une mémoire <span className='text-gray-600 text-sm'>(en GB)</span></div>
+                  <VariantType1 variant_types={memoires} />
+                </div>
+
+                <div className='mt-4'>
+                  <div className='w-full text-base font-medium mb-2'>Choisir une couleur</div>
+                  <VariantType2 variant_types={colors} />
+                </div>
+
+                <div className='mt-4 flex flex-row'>
+                <div className='w-32 md:w-40 h-12 md:h-14 flex flex-row justify-center rounded-md shadow-xl text-base md:text-lg font-medium text-white gt-btn-type1 cursor-pointer mr-2'>
+                      <div className='self-center'>Commander</div>
+                    </div>
+                </div>
+
 
               </div>
 

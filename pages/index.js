@@ -10,7 +10,7 @@ import Product from '../components/product/product'
 const item = {
     id: 1,
     name: 'Macbook Pro',
-    category: 'Laptop',
+    category: 'Oridnateurs',
     price: '780 000 CFA',
     image: "images/product/product1.png",
 }

@@ -6,7 +6,7 @@ import { UserIcon, ShoppingCartIcon, SearchIcon } from '@heroicons/react/outline
 
 export default function Product(props) {
     return (
-        <Link  href={'/detail/' + ''}>
+        <Link  href={'/details/' + ''}>
             <div key={props.product.id}  className="w-full pt-2 md:pt-5 pb-8 md:pb-12 rounded-xl bg-gray-400 bg-opacity-30 cursor-pointer">
 
                 <div className='w-full h-32 md:h-56 flex flex-row justify-center'>

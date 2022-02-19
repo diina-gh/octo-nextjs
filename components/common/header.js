@@ -22,7 +22,7 @@ export default function Header(props) {
                         {/* <div className="w-9 self-center mr-1 cursor-pointer hover:rotate-180 duration-700 ease-in-out">
                             <img className="w-full" src="images/logo/logo2.png" />
                         </div> */}
-                        <div className={style0}>Gadget</div>
+                        <div className={style0}>Untitled</div>
                     </div>
                 </ Link>
 
@@ -37,7 +37,7 @@ export default function Header(props) {
                     </Link>
 
                     <Link href='/'>
-                        <div className={router.asPath === '/produits' ? style1 : style2}>Produits</div>
+                        <div className={router.asPath === '/produits' || router.asPath === '/details'  ? style1 : style2}>Produits</div>
                     </Link>
 
                     <Link href='/'>
