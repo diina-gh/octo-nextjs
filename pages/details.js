@@ -111,9 +111,9 @@ export default function Home() {
                   <VariantType2 variant_types={colors} />
                 </div>
 
-                <div className='mt-4 flex flex-row'>
+                <div className='mt-5 flex flex-row'>
                   <ButtonType1 />
-                  <div className='w-4'></div>
+                  <div className='w-3 md:w-4'></div>
                   <ButtonType2 />
                 </div>
 
