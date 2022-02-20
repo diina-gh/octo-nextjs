@@ -10,6 +10,8 @@ import VariantType2 from '../components/product/variantType2'
 import Console from '../components/product/console'
 import ButtonType1 from '../components/ui/Buttons/buttonType1'
 import ButtonType2 from '../components/ui/Buttons/buttonType2'
+import CardType0 from '../components/ui/Cards/cardType0'
+import SectionHeader1 from '../components/ui/Others/sectionHeader1'
 
 const tailles = [
   {
@@ -85,7 +87,7 @@ export default function Home() {
 
       <Header/>
 
-      <section className="bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-4">
+      <section className="px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-4">
 
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-14">
 
@@ -125,9 +127,25 @@ export default function Home() {
                   <ButtonType2 text="Favoris" />
                 </div>
 
+                <div className='mt-5 flex flex-row flex-wrap'>
+                  <CardType0 icon="badge" text="Produits 100% authentique" />
+                  <CardType0 icon="truck" text="Livraison à partir de 500 CFA" />
+                  <CardType0 icon="return" text="Retours gratuit sous 15 Jours" />
+                </div>
+
               </div>
 
           </div>
+      </section>
+
+      <section className='px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-14'>
+
+        <SectionHeader1 text="Détails du produits" />
+
+        <p className='text-base xl:text-lg font-normal mt-5'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
+
       </section>
 
       <Newsletter />

@@ -49,6 +49,10 @@
   -webkit-text-fill-color: transparent !important;
 }
 
+.gt-bg-gradient{
+  background: -webkit-linear-gradient(85deg,#2563eb, #6b51b4, #6c27d7) !important;
+}
+
 .gt-hover-text-gradient{
   &:hover{
     background: -webkit-linear-gradient(85deg, #2563eb, #6b51b4, #6c27d7) !important;

@@ -47,7 +47,6 @@ export default function ProductGalery() {
 
       </Swiper>
 
-
       <Swiper className="swiper-type2 casper2 mt-4" onSwiper={setThumbsSwiper} spaceBetween={10} slidesPerView={4} freeMode={true} watchSlidesProgress={true} modules={[FreeMode, Navigation, Thumbs]} >
         
         <SwiperSlide className="slider-type2">
