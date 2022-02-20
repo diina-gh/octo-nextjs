@@ -16,7 +16,7 @@ export default function Newsletter(props) {
                                     <input className="h-full w-full px-2 md:px-4 text-sm md:text-base border-0 ring-0" type="email" id="" name="" placeholder="Ecrire votre adresse email.." required />
                                 </div>
                                 <div className="h-full w-4/12 md:w-1/4 2xl:w-1/6 gt-btn-type1 cursor-pointer rounded-md opacity-100 flex flex-col justify-center">
-                                    <button type="submit" className="text-center text-white text-sm md:text-base">S inscrire</button>
+                                    <button type="submit" className="text-center text-white text-sm md:text-base">S&#039;inscrire</button>
                                 </div>
                             </div>
                         </div>
