@@ -17,7 +17,7 @@ export default function ProductGalery() {
   SwiperCore.use([Autoplay, Navigation, Pagination]);
 
   return (
-    <div className="">
+    <div className="z-10">
 
       <Swiper className="swiper-type1" style={{"--swiper-navigation-color": "#fff","--swiper-pagination-color": "#fff",}} spaceBetween={10} navigation={false} pagination={{ "clickable": true }} thumbs={{ swiper: thumbsSwiper }} modules={[FreeMode, Navigation, Thumbs]}>
         
