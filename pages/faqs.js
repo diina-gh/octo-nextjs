@@ -12,7 +12,7 @@ export default function Index() {
 
             <Header/>
 
-            <section className='px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-2'>
+            <section className='px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10'>
                 <div className="w-full">
 
                     <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
