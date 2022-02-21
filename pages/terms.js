@@ -105,7 +105,7 @@ export default function Home() {
 
                 <p className="mb-2 leading-6">
                 The Operators do not want to receive confidential or proprietary information from you through the Website. Any material, information, or other communication you transmit or post
-                ("Contributions") to the Website will be considered non-confidential.
+                (Contributions) to the Website will be considered non-confidential.
                 </p>
 
                 <p className="mb-2 leading-6">All contributions to this site are licensed by you under the MIT License to anyone who wishes to use them, including the Operators.</p>
@@ -166,7 +166,7 @@ export default function Home() {
                 <h2 className="mt-8 mb-4 text-xl font-bold" id="8warrantydisclaimer">8. WARRANTY DISCLAIMER</h2>
 
                 <p className="mb-2 leading-6">
-                THE WEBSITE AND ASSOCIATED MATERIALS ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. TO THE FULL EXTENT PERMISSIBLE BY APPLICABLE LAW, THE OPERATORS DISCLAIM ALL WARRANTIES, EXPRESS OR
+                THE WEBSITE AND ASSOCIATED MATERIALS ARE PROVIDED ON AN &#34;AS IS&#34; AND &#34;AS AVAILABLE&#34; BASIS. TO THE FULL EXTENT PERMISSIBLE BY APPLICABLE LAW, THE OPERATORS DISCLAIM ALL WARRANTIES, EXPRESS OR
                 IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY. THE OPERATORS MAKE NO
                 REPRESENTATIONS OR WARRANTY THAT THE WEBSITE WILL MEET YOUR REQUIREMENTS, OR THAT YOUR USE OF THE WEBSITE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR FREE; NOR DO THE OPERATORS MAKE ANY
                 REPRESENTATION OR WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE WEBSITE. THE OPERATORS MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE

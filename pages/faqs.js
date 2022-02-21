@@ -32,7 +32,7 @@ export default function Index() {
                                     </svg>
                                 </span>
 
-                                <span className='z-10'>Foire Aux Questions</span>
+                                <span className="z-10">Foire Aux Questions</span>
 
                             </h2>
 
@@ -58,7 +58,7 @@ export default function Index() {
                                 worlds.
                                 <br />
                                 <br />
-                                Many say exploration is part of our destiny, but it’s actually
+                                Many say exploration is part of our destiny, but it&#039;s actually
                                 our duty to future generations.
                                 </p>
                             </div>
@@ -68,13 +68,13 @@ export default function Index() {
                                 </p>
                                 <p className="text-gray-700">
                                 Well, the way they make shows is, they make one show. That
-                                show's called a pilot.
+                                show&#039;s called a pilot.
                                 <br />
                                 <br />
                                 Then they show that show to the people who make shows, and on
-                                the strength of that one show they decide if they're going to
+                                the strength of that one show they decide if they&#039;re going to
                                 make more shows. Some pilots get picked and become television
-                                programs.Some don't, become nothing. She starred in one of the
+                                programs.Some don&#039;t, become nothing. She starred in one of the
                                 ones that became nothing.
                                 </p>
                             </div>
@@ -84,7 +84,7 @@ export default function Index() {
                                 </p>
                                 <p className="text-gray-700">
                                 A flower in my garden, a mystery in my panties. Heart attack
-                                never stopped old Big Bear. I didn't even know we were calling
+                                never stopped old Big Bear. I didn&#039;t even know we were calling
                                 him Big Bear.
                                 </p>
                             </div>
@@ -102,20 +102,20 @@ export default function Index() {
                                 Michael Knight a young loner on a crusade to champion the cause
                                 of the innocent. The helpless. The powerless in a world of
                                 criminals who operate above the law. Here he comes Here comes
-                                Speed Racer. He's a demon on wheels.
+                                Speed Racer. He&#039;s a demon on wheels.
                                 </p>
                             </div>
                             <div>
                                 <p className="mb-4 text-xl font-medium">
-                                Galaxies Orion's sword globular star cluster?
+                                Galaxies Orion&#039;s sword globular star cluster?
                                 </p>
                                 <p className="text-gray-700">
                                 A business big enough that it could be listed on the NASDAQ goes
                                 belly up. Disappears!
                                 <br />
                                 <br />
-                                It ceases to exist without me. No, you clearly don't know who
-                                you're talking to, so let me clue you in.
+                                It ceases to exist without me. No, you clearly don&#039;t know who
+                                you&#039;re talking to, so let me clue you in.
                                 </p>
                             </div>
                             <div>
@@ -124,7 +124,7 @@ export default function Index() {
                                 </p>
                                 <p className="text-gray-700">
                                 This is not about revenge. This is about justice. A lot of
-                                things can change in twelve years, Admiral. Well, that's
+                                things can change in twelve years, Admiral. Well, that&#039;s
                                 certainly good to know. About four years. I got tired of hearing
                                 how young I looked.
                                 </p>
