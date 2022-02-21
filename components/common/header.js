@@ -32,20 +32,20 @@ export default function Header(props) {
                         <div className={router.asPath === '/' ? style1 : style2}>Accueil</div>
                     </Link>
 
-                    <Link href='/'>
-                        <div className={router.asPath === '/about' ? style1 : style2}>Catégories</div>
+                    <Link href='/categories'>
+                        <div className={router.asPath === '/categories' ? style1 : style2}>Catégories</div>
                     </Link>
 
                     <Link href='/'>
                         <div className={router.asPath === '/produits' || router.asPath === '/details'  ? style1 : style2}>Produits</div>
                     </Link>
 
-                    <Link href='/'>
+                    <Link href='/contact'>
                         <div className={router.asPath === '/contact' ? style1 : style2}>Contact</div>
                     </Link>
 
-                    <Link href='/'>
-                        <div className={router.asPath === '/faq' ? style1 : style2}>FAQ</div>
+                    <Link href='/faqs'>
+                        <div className={router.asPath === '/faqs' ? style1 : style2}>FAQ</div>
                     </Link>
 
                 </div>

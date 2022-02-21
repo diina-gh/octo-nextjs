@@ -7,7 +7,7 @@ export default function Offre(props) {
 
   return (
 
-        <section className="flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10">
+        <section className="flex justify-center px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10">
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 items-center">
 
                 <div className="">

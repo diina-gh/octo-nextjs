@@ -78,7 +78,7 @@ const colors = [
   }
 ]
 
-export default function Home() {
+export default function Index() {
 
   return (
     <div className="app-container gt-bg1 text-gtblack">
@@ -105,7 +105,7 @@ export default function Home() {
                 </div> */}
 
                 <div className='mt-4'>
-                  <div className='w-full text-base font-medium mb-2'>Choisir une mémoire <span className='text-gray-600 text-sm'>(en GB)</span></div>
+                  <div className='w-full text-base font-medium mb-2'>Capacité de stockage <span className='text-gray-600 text-sm'>(en GB)</span></div>
                   <VariantType1 variant_types={memoires} />
                 </div>
 
