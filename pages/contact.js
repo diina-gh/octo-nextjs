@@ -22,11 +22,11 @@ export default function Inddex() {
 
       <section className="relative px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10">
 
-        <div className="w-full flex sm:flex-nowrap flex-wrap">
+        <div className="w-full flex flex-row justify-between flex-wrap items-center">
 
-            <div className="w-full xl:w-7/12 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            <div className="w-full xl:w-6/12 bg-gray-300 h-64">
 
-                <iframe width="100%" height="100%" className="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
+                {/* <iframe width="100%" height="100%" className="absolute inset-0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe> */}
 
                 {/* <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                     <div className="lg:w-1/2 px-6">
@@ -43,8 +43,8 @@ export default function Inddex() {
 
             </div>
 
-            <div className="w-full xl:w-5/12 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+            <div className="w-full xl:w-6/12 pl-0 xl:pl-10 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">NOUS CONTACTEZ</h2>
                 <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
                 <div className="relative mb-4">
                     <label for="name" className="leading-7 text-sm text-gray-600">Name</label>

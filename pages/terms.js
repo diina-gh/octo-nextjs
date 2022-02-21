@@ -43,7 +43,7 @@ export default function Home() {
 
                 <p className="mb-2 leading-6">
                 Please carefully review the following basic rules that govern your use of the Website. Please note that your use of the Website constitutes your unconditional agreement to follow and be bound by
-                these Terms and Conditions of Use. If you (the "User") do not agree to them, do not use the Website, provide any materials to the Website or download any materials from them.
+                these Terms and Conditions of Use. If you (the User) do not agree to them, do not use the Website, provide any materials to the Website or download any materials from them.
                 </p>
 
                 <p className="mb-2 leading-6">
@@ -67,12 +67,12 @@ export default function Home() {
                 </p>
 
                 <p className="mb-2 leading-6">
-                You may not upload or transmit any material that infringes or misappropriates any person's copyright, patent, trademark, or trade secret, or disclose via the the Website any information the
+                You may not upload or transmit any material that infringes or misappropriates any person&#039;s copyright, patent, trademark, or trade secret, or disclose via the the Website any information the
                 disclosure of which would constitute a violation of any confidentiality obligations you may have.
                 </p>
 
                 <p className="mb-2 leading-6">
-                You may not upload any viruses, worms, Trojan horses, or other forms of harmful computer code, nor subject the Website's network or servers to unreasonable traffic loads, or otherwise engage in
+                You may not upload any viruses, worms, Trojan horses, or other forms of harmful computer code, nor subject the Website&#039;s network or servers to unreasonable traffic loads, or otherwise engage in
                 conduct deemed disruptive to the ordinary operation of the Website.
                 </p>
 
@@ -83,21 +83,21 @@ export default function Home() {
                 </p>
 
                 <p className="mb-2 leading-6">
-                You are expressly prohibited from compiling and using other Users' personal information, including addresses, telephone numbers, fax numbers, email addresses or other contact information that
+                You are expressly prohibited from compiling and using other Users&#039; personal information, including addresses, telephone numbers, fax numbers, email addresses or other contact information that
                 may appear on the Website, for the purpose of creating or compiling marketing and/or mailing lists and from sending other Users unsolicited marketing materials, whether by facsimile, email, or
                 other technological means.
                 </p>
 
                 <p className="mb-2 leading-6">
-                You also are expressly prohibited from distributing Users' personal information to third-party parties for marketing purposes. The Operators shall deem the compiling of marketing and mailing
-                lists using Users' personal information, the sending of unsolicited marketing materials to Users, or the distribution of Users' personal information to third parties for marketing purposes as a
+                You also are expressly prohibited from distributing Users&#039; personal information to third-party parties for marketing purposes. The Operators shall deem the compiling of marketing and mailing
+                lists using Users&#039; personal information, the sending of unsolicited marketing materials to Users, or the distribution of Users&#039; personal information to third parties for marketing purposes as a
                 material breach of these Terms and Conditions of Use, and the Operators reserve the right to terminate or suspend your access to and use of the Website and to suspend or revoke your membership
                 in the consortium without refund of any membership dues paid.
                 </p>
 
                 <p className="mb-2 leading-6">
-                The Operators note that unauthorized use of Users' personal information in connection with unsolicited marketing correspondence also may constitute violations of various state and federal
-                anti-spam statutes. The Operators reserve the right to report the abuse of Users' personal information to the appropriate law enforcement and government authorities, and the Operators will fully
+                The Operators note that unauthorized use of Users&#039; personal information in connection with unsolicited marketing correspondence also may constitute violations of various state and federal
+                anti-spam statutes. The Operators reserve the right to report the abuse of Users&#039; personal information to the appropriate law enforcement and government authorities, and the Operators will fully
                 cooperate with any authorities investigating violations of these laws.
                 </p>
 
@@ -111,7 +111,7 @@ export default function Home() {
                 <p className="mb-2 leading-6">All contributions to this site are licensed by you under the MIT License to anyone who wishes to use them, including the Operators.</p>
 
                 <p className="mb-2 leading-6">
-                If you work for a company or at a University, it's likely that you're not the copyright holder of anything you make, even in your free time. Before making contributions to this site, get written
+                If you work for a company or at a University, it&#039;s likely that you&#039;re not the copyright holder of anything you make, even in your free time. Before making contributions to this site, get written
                 permission from your employer.
                 </p>
 
@@ -148,7 +148,7 @@ export default function Home() {
                 <h2 id="6indemnification">6. Indemnification</h2>
 
                 <p className="mb-2 leading-6">
-                You agree to defend, indemnify and hold harmless the Operators, agents, vendors or suppliers from and against any and all claims, damages, costs and expenses, including reasonable attorneys'
+                You agree to defend, indemnify and hold harmless the Operators, agents, vendors or suppliers from and against any and all claims, damages, costs and expenses, including reasonable attorneys&#039;
                 fees, arising from or related to your use or misuse of the Website, including, without limitation, your violation of these Terms and Conditions, the infringement by you, or any other subscriber
                 or user of your account, of any intellectual property right or other right of any person or entity.
                 </p>
@@ -197,7 +197,7 @@ export default function Home() {
                 </p>
 
                 <p className="mb-2 leading-6">
-                THE OPERATORS'S TOTAL CUMULATIVE LIABILITY FOR ANY AND ALL CLAIMS IN CONNECTION WITH THE WEBSITE WILL NOT EXCEED FIVE U.S. DOLLARS ($5.00). USER AGREES AND ACKNOWLEDGES THAT THE FOREGOING
+                THE OPERATORS&#039;S TOTAL CUMULATIVE LIABILITY FOR ANY AND ALL CLAIMS IN CONNECTION WITH THE WEBSITE WILL NOT EXCEED FIVE U.S. DOLLARS ($5.00). USER AGREES AND ACKNOWLEDGES THAT THE FOREGOING
                 LIMITATIONS ON LIABILITY ARE AN ESSENTIAL BASIS OF THE BARGAIN AND THAT THE OPERATORS WOULD NOT PROVIDE THE WEBSITE ABSENT SUCH LIMITATION.
                 </p>
 
@@ -207,13 +207,13 @@ export default function Home() {
                 The Website is hosted in the United States. The Operators make no claims that the Content on the Website is appropriate or may be downloaded outside of the United States. Access to the Content
                 may not be legal by certain persons or in certain countries. If you access the Website from outside the United States, you do so at your own risk and are responsible for compliance with the laws
                 of your jurisdiction. The provisions of the UN Convention on Contracts for the International Sale of Goods will not apply to these Terms. A party may give notice to the other party only in
-                writing at that party's principal place of business, attention of that party's principal legal officer, or at such other address or by such other method as the party shall specify in writing.
+                writing at that party&#039;s principal place of business, attention of that party&#039;s principal legal officer, or at such other address or by such other method as the party shall specify in writing.
                 Notice shall be deemed given upon personal delivery or facsimile, or, if sent by certified mail with postage prepaid, 5 business days after the date of mailing, or, if sent by international
                 overnight courier with postage prepaid, 7 business days after the date of mailing. If any provision herein is held to be unenforceable, the remaining provisions will continue in full force
                 without being affected in any way. Further, the parties agree to replace such unenforceable provision with an enforceable provision that most closely approximates the intent and economic effect
                 of the unenforceable provision. Section headings are for reference purposes only and do not define, limit, construe or describe the scope or extent of such section. The failure of the Operators
-                to act with respect to a breach of this Agreement by you or others does not constitute a waiver and shall not limit the Operators' rights with respect to such breach or any subsequent breaches.
-                Any action or proceeding arising out of or related to this Agreement or User's use of the Website must be brought in the courts of Belgium, and you consent to the exclusive personal jurisdiction
+                to act with respect to a breach of this Agreement by you or others does not constitute a waiver and shall not limit the Operators&#039; rights with respect to such breach or any subsequent breaches.
+                Any action or proceeding arising out of or related to this Agreement or User&#039;s use of the Website must be brought in the courts of Belgium, and you consent to the exclusive personal jurisdiction
                 and venue of such courts. Any cause of action you may have with respect to your use of the Website must be commenced within one (1) year after the claim or cause of action arises. These Terms
                 set forth the entire understanding and agreement of the parties, and supersedes any and all oral or written agreements or understandings between the parties, as to their subject matter. The
                 waiver of a breach of any provision of this Agreement shall not be construed as a waiver of any other or subsequent breach.
