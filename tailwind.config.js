@@ -10,27 +10,6 @@ module.exports = {
   ],
   ///darkMode: false, // or 'media' or 'class'
   theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      gray: colors.gray,
-      blue: colors.blue,
-      red: colors.rose,
-      pink: colors.fuchsia,
-      purple: colors.purple,
-      black: colors.black,
-      white: colors.white,
-      indigo: colors.indigo,
-      yellow: colors.amber,
-      green: colors.emerald,
-      iiyellow: '#F2C153',
-      gtblue: '#40B1C7',
-      gtred: '#DB5252',
-      gtblack: '#1B1B1B',
-      gtpurple: '#6c27d7',
-      gtpurple2: '#BB86FC',
-      gtblue: '#2563eb'
-    },
     fontFamily: {
       cal: ["Cal Sans", "Inter var", "sans-serif"],
     },
@@ -349,6 +328,14 @@ module.exports = {
           800: '#4e342e',
           900: '#3e2723',
         },
+        gtblue: '#40B1C7',
+        gtred: '#DB5252',
+        gtblack: '#1B1B1B',
+        gtpurple: '#6c27d7',
+        gtpurple2: '#BB86FC',
+        gtpurple3: '#4b1b95',
+        gtpurple4: '#080310',
+        gtblue: '#2563eb'
       },
  
       keyframes: {

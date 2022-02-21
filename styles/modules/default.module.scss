@@ -57,3 +57,36 @@ input[type=number] {
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
       @extend .no-select;
   }
+
+  .gt-w-38{
+      width: 8.95rem;
+  }
+
+
+/** sm  **/
+@media (min-width: 640px) {
+
+
+}
+
+/** md  **/
+@media (min-width: 768px) {
+
+}
+
+/** lg **/
+@media (min-width: 1024px) {
+
+}
+
+/** xl **/
+@media (min-width: 1280px) {
+    .gt-w-38{
+        width: 9.5rem;
+    }
+}
+
+/** 2xl **/
+@media (min-width: 1536px) {
+  
+}
