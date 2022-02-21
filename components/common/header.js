@@ -61,6 +61,14 @@ export default function Header(props) {
                 <Link href='/'>
                     <div className="flex flex-row self-center cursor-pointer">
                     
+                        <div className="mr-2 text-gray-400 self-center md:hidden">
+                            <button onClick={() => setOpen2(true)} className="w-7 h-7 flex items-center px-2 py-2 border rounded text-gray-300 border-gray-300 focus:outline-none">
+                                <svg className="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <title>Menu</title>
+                                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                                </svg>
+                            </button>
+                        </div>
                         <div className={style0}>Untitled</div>
                     </div>
                 </ Link>
@@ -107,7 +115,7 @@ export default function Header(props) {
 
             </div>
 
-            <div className="bg-gray-400 bg-opacity-40 w-full h-10 mt-16 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48">
+            <div className="bg-gray-400 bg-opacity-40 w-0 h-0 md:w-full md:h-10 mt-16 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 overflow-hidden">
 
                 <div onClick={() => setOpen2(true)} className="flex float-right items-center">
                     <div className="mr-0 text-gray-400">
@@ -123,7 +131,7 @@ export default function Header(props) {
                     </div>
                 </div>
                         
-                <div className="flex flex-row self-center truncate">
+                <div className="flex flex-row self-center">
 
                     <Link href='/'>
                         <div className={style2}>Ordinateurs</div>
