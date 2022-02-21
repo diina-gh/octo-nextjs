@@ -53,30 +53,60 @@ export default function Footer(props) {
 
                     <div className="">
                         <div className="text-lg font-medium text-white">Contenu</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Accueil</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">A propos</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Produits</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Contact</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Terms & Condition</div>
+                        <Link href='/'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Accueil</div>
+                        </Link>
+                        <Link href='/'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">A propos</div>
+                        </Link>
+                        <Link href='/'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Produits</div>
+                        </Link>
+                        <Link href='/contact'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Contact</div>
+                        </Link>
+                        
                     </div>
 
                     <div className="">
 
                         <div className="text-lg font-medium text-white mb-3">Nos catégories</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Téléphone</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Ordinateur</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Tablette</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Accessoire</div>
-                        <div className="text-base text-gray-200 font-normal mt-1 transition duration-700 ease-in-out underline cursor-pointer">Voir +</div>
+                        <Link href='/categories'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Téléphone</div>
+                        </Link>
+                        <Link href='/categories'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Ordinateur</div>
+                        </Link>
+                        <Link href='/categories'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Tablette</div>
+                        </Link>
+                        <Link href='/categories'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Accessoire</div>
+                        </Link>
+                        <Link href='/categories'>
+                            <div className="text-base text-gray-200 font-normal mt-1 transition duration-700 ease-in-out underline cursor-pointer">Tous les catégories</div>
+                        </Link>
 
                     </div>
 
                     <div className="">
                         <div className="text-lg font-medium text-white">En savoir plus</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">FAQ</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Paiement</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Livraison</div>
-                        <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Politique de retour</div>
+                        <Link href='/faqs'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">FAQ</div>
+                        </Link>
+                        <Link href='/'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Paiement</div>
+                        </Link>
+                        <Link href='/'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Livraison</div>
+                        </Link>
+                        <Link href='/'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Politique de retour</div>
+                        </Link>
+                        <Link href='/terms'>
+                            <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Conditions générales</div>
+                        </Link>
+                        
                     </div>
 
                 </div>
