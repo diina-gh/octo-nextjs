@@ -2,13 +2,8 @@ import { useState } from 'react'
 import Link from 'next/link'
 import HeadInfo from "../components/common/headinfo"
 import Header from "../components/common/header"
-import OpeningType1 from '../components/section/openingType1'
-import Catalogue1 from '../components/product/catalogue1'
 import Footer from "../components/common/footer"
-import Offre from '../components/section/offre'
-import Promos from '../components/section/promos'
 import Newsletter from '../components/common/newsletter'
-import { contrast, grayscale } from 'tailwindcss/defaultTheme'
 
 
 export default function Inddex() {
@@ -20,48 +15,34 @@ export default function Inddex() {
 
       <Header/>
 
-      <section className="relative px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10">
+      <section className='px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10'>
 
-        <div className="w-full flex flex-row justify-between flex-wrap items-center">
+        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
-            <div className="w-full xl:w-6/12 bg-gray-300 h-64">
+            <h2 className="max-w-lg mb-2 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
 
-                {/* <iframe width="100%" height="100%" className="absolute inset-0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe> */}
+                <span className="relative inline-block z-0">
+                    <svg viewBox="0 0 52 24" fill="currentColor" className="absolute bottom-2 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                        <defs>
+                            <pattern id="70326c9b-4a0f-429b-9c76-792941e326d5" x="0" y="0" width=".135" height=".30">
+                                <circle cx="1" cy="1" r=".7" />
+                            </pattern>
+                        </defs>
+                        <rect fill="url(#70326c9b-4a0f-429b-9c76-792941e326d5)" width="52" height="24" />
+                    </svg>
+                </span>
 
-                {/* <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
-                    <div className="lg:w-1/2 px-6">
-                        <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                        <p className="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
-                    </div>
-                    <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                        <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                        <a className="text-purple-500 leading-relaxed">example@email.com</a>
-                        <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                        <p className="leading-relaxed">123-456-7890</p>
-                    </div>
-                </div> */}
+                <span className="z-10">Contact</span>
 
-            </div>
+            </h2>
 
-            <div className="w-full xl:w-6/12 pl-0 xl:pl-10 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">NOUS CONTACTEZ</h2>
-                <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
-                <div className="relative mb-4">
-                    <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>
-                    <input type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                </div>
-                <div className="relative mb-4">
-                    <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
-                    <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                </div>
-                <div className="relative mb-4">
-                    <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
-                    <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                </div>
-                <button className="text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Button</button>
-                <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
-            </div>
+            <p className="text-base text-gray-700 md:text-lg">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque rem aperiam, eaque ipsa quae.
+            </p>
+
         </div>
+
       </section>
       
       <Newsletter />

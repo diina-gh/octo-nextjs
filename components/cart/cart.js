@@ -2,8 +2,7 @@ import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
 import Console from "../product/console"
-import CartItem from './cartItem'
-
+import CartItem from './CartItem'
 
 const products = [
     {
@@ -130,7 +129,7 @@ export default function Cart({onOpenChange, open}) {
             </div>
 
         </Dialog>
-        
+
     </Transition.Root>
   )
 }
