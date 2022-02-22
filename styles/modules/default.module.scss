@@ -8,7 +8,7 @@
     
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f109; 
   }
    
   /* Handle */
@@ -60,6 +60,10 @@ input[type=number] {
 
   .gt-w-38{
       width: 8.95rem;
+  }
+
+  .cart-items-height{
+      height: calc(100vh - 15rem);
   }
 
 
