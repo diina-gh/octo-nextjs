@@ -66,6 +66,10 @@ input[type=number] {
       height: calc(100vh - 16rem);
   }
 
+  .sidebar-items-height{
+    height: calc(100vh - 4rem);
+}
+
 
 /** sm  **/
 @media (min-width: 640px) {

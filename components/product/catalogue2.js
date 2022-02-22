@@ -66,6 +66,7 @@ const subCategories = [
   { name: 'Hip Bags', href: '#' },
   { name: 'Laptop Sleeves', href: '#' },
 ]
+
 const filters = [
   {
     id: 'color',
