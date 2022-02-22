@@ -37,7 +37,7 @@ export default function Header(props) {
 
             <div className='fixed top-0 left-0 right-0 w-full h-16 bg-gtblack z-20 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48'>
 
-                <Link href='/'>
+                
                     <div className="flex flex-row self-center cursor-pointer">
                     
                         <div className="mr-2 text-gray-400 self-center md:hidden">
@@ -45,9 +45,12 @@ export default function Header(props) {
                                 <MenuBurgerIcon customClass="fill-current h-4 w-4" />
                             </button>
                         </div>
-                        <div className={style0}>Untitled</div>
+
+                        <Link href='/'>
+                            <div className={style0}>Untitled</div>
+                        </ Link>
+                        
                     </div>
-                </ Link>
 
                 <div className="w-0 h-0 overflow-hidden lg:w-max lg:h-10 flex flex-row self-center rounded-lg">
 

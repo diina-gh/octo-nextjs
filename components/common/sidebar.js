@@ -28,11 +28,11 @@ export default function Sidebar({onOpen2Change, open2}) {
 
             <div className="absolute inset-0 overflow-hidden">
 
-                {/* <Transition.Child as={Fragment} enter="ease-in-out duration-500" enterFrom="opacity-0" enterTo="opacity-100" leave="ease-in-out duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
+                <Transition.Child as={Fragment} enter="ease-in-out duration-500" enterFrom="opacity-0" enterTo="opacity-100" leave="ease-in-out duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
                     <Dialog.Overlay className="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
-                </Transition.Child> */}
+                </Transition.Child>
 
-                <div className="fixed inset-y-0 left-0 max-w-full flex">
+                <div className="fixed inset-y-0 left-0 max-w-full flex pr-10">
 
                     <Transition.Child as={Fragment} enter="transform transition ease-in-out duration-500 sm:duration-700" enterFrom="-translate-x-full" enterTo="translate-x-0" leave="transform transition ease-in-out duration-500 sm:duration-700" leaveFrom="translate-x-0" leaveTo="-translate-x-full">
 
@@ -52,7 +52,7 @@ export default function Sidebar({onOpen2Change, open2}) {
 
                                 <div className="border-t border-gray-600 py-6 sidebar-items-height overflow-auto overflow-y-scroll">
                                     
-                                    <div className='w-full bg-gray-800 bg-opacity-20 text-white font-semibold text-base md:text-lg sm:px-6 py-2 mb-2'>Ordinateurs</div>
+                                    <div className='w-full bg-gray-800 bg-opacity-40 text-white font-semibold text-base md:text-lg px-4  sm:px-6 py-2 mb-2'>Ordinateurs</div>
 
                                     <div className='flex flex-row justify-between font-medium text-sm md:text-base text-gray-200 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer bg-gray-100 bg-opacity-0 hover:bg-opacity-50 px-4 sm:px-6 py-3'>
                                         <div className='self-center'>Ordinateur de bureau</div>
@@ -82,7 +82,7 @@ export default function Sidebar({onOpen2Change, open2}) {
                                         </div>
                                     </div>
 
-                                    <div className='w-full bg-gray-800 bg-opacity-20 text-white font-semibold text-base md:text-lg sm:px-6 py-2 mb-2'>Téléphones portable</div>
+                                    <div className='w-full bg-gray-800 bg-opacity-40 text-white font-semibold text-base md:text-lg px-4 sm:px-6 py-2 mb-2'>Téléphones portable</div>
 
                                     <div className='flex flex-row justify-between font-medium text-sm md:text-base text-gray-200 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer bg-gray-100 bg-opacity-0 hover:bg-opacity-50 px-4 sm:px-6 py-3'>
                                         <div className='self-center'>Téléphone portable classique</div>
@@ -105,7 +105,7 @@ export default function Sidebar({onOpen2Change, open2}) {
                                         </div>
                                     </div>
 
-                                    <div className='w-full bg-gray-800 bg-opacity-20 text-white font-semibold text-base md:text-lg sm:px-6 py-2 mb-2'>Accessoires IT</div>
+                                    <div className='w-full bg-gray-800 bg-opacity-40 text-white font-semibold text-base md:text-lg px-4 sm:px-6 py-2 mb-2'>Accessoires IT</div>
 
                                     <div className='flex flex-row justify-between font-medium text-sm md:text-base text-gray-200 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer bg-gray-100 bg-opacity-0 hover:bg-opacity-50 px-4 sm:px-6 py-3'>
                                         <div className='self-center'>Accessoires d'ordinateurs</div>
