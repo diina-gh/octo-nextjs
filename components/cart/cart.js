@@ -2,7 +2,7 @@ import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
 import Console from "../product/console"
-import CartItem from './CartItem'
+import CartItem from './cartItem'
 
 
 // function CartItem(props) {
@@ -141,7 +141,7 @@ export default function Cart({onOpenChange, open}) {
                             </div>
                         </div>
 
-                        <div className="h-44 border-t border-gray-600 py-4 px-4 sm:px-6">
+                        <div className="h-48 border-t border-gray-600 py-4 px-4 sm:px-6">
 
                             <div className="flex justify-between text-base font-medium text-gray-100">
                                 <p>Sous total</p>
