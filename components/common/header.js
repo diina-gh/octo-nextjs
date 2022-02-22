@@ -133,19 +133,19 @@ export default function Header(props) {
                         
                 <div className="flex flex-row self-center">
 
-                    <Link href='/'>
+                    <Link href='/catalogue'>
                         <div className={style2}>Ordinateurs</div>
                     </Link>
 
-                    <Link href='/categories'>
+                    <Link href='/catalogue'>
                         <div className={style2}>Téléphones</div>
                     </Link>
 
-                    <Link href='/'>
+                    <Link href='/catalogue'>
                         <div className={style2}>Tablettes</div>
                     </Link>
 
-                    <Link href='/'>
+                    <Link href='/catalogue'>
                         <div className={style2}>Accessoires</div>
                     </Link>
 

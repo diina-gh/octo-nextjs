@@ -71,19 +71,19 @@ export default function Footer(props) {
                     <div className="">
 
                         <div className="text-lg font-medium text-white mb-3">Nos catégories</div>
-                        <Link href='/categories'>
+                        <Link href='/catalogue'>
                             <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Téléphone</div>
                         </Link>
-                        <Link href='/categories'>
+                        <Link href='/catalogue'>
                             <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Ordinateur</div>
                         </Link>
-                        <Link href='/categories'>
+                        <Link href='/catalogue'>
                             <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Tablette</div>
                         </Link>
-                        <Link href='/categories'>
+                        <Link href='/catalogue'>
                             <div className="text-base text-gray-100 font-normal mt-1 transition duration-700 ease-in-out cursor-pointer">Accessoire</div>
                         </Link>
-                        <Link href='/categories'>
+                        <Link href='/catalogue'>
                             <div className="text-base text-gray-200 font-normal mt-1 transition duration-700 ease-in-out underline cursor-pointer">Tous les catégories</div>
                         </Link>
 
