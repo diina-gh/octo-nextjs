@@ -108,7 +108,7 @@ export default function Sidebar({onOpen2Change, open2}) {
                                     <div className='w-full bg-gray-800 bg-opacity-40 text-white font-semibold text-base md:text-lg px-4 sm:px-6 py-2 mb-2'>Accessoires IT</div>
 
                                     <div className='flex flex-row justify-between font-medium text-sm md:text-base text-gray-200 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer bg-gray-100 bg-opacity-0 hover:bg-opacity-50 px-4 sm:px-6 py-3'>
-                                        <div className='self-center'>Accessoires d'ordinateurs</div>
+                                        <div className='self-center'>Accessoires d&#39;ordinateurs</div>
                                         <div className='self-center'>
                                             {/* <AngleRightIcon customClass="self-center font-medium w-4 h-4" /> */}
                                         </div>
