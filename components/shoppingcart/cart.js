@@ -1,8 +1,7 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XIcon } from '@heroicons/react/outline'
-import Console from "../product/console"
-import CartItem from './CartItem'
+import Item from './item'
 
 const products = [
     {
@@ -84,7 +83,7 @@ export default function Cart({onOpenChange, open}) {
                                     <div className="flow-root">
                                         <ul role="list" className="-my-6 divide-y divide-gray-600">
                                         {products.map((product) => (
-                                            <CartItem key={product.id} product={product} />
+                                            <Item key={product.id} product={product} />
                                         ))}
                                         </ul>
                                     </div>

@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import Console from "../product/console";
 
 
-export default function CartItem(props) {
+export default function Item(props) {
 
     return (
         <li key={props.product.id} className="py-6 flex">
@@ -36,5 +36,5 @@ export default function CartItem(props) {
                 </div>
             </div>
         </li>
-      );
+      )
 }

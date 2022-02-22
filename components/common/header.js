@@ -1,7 +1,7 @@
 import React, { Component,Fragment, useState } from 'react';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import Cart from '../cart/cart';
+import Cart from '../shoppingcart/cart';
 import Sidebar from './sidebar';
 import CartIcon from '../ui/icons/cartIcon';
 import UserIcon from '../ui/icons/userIcon';
@@ -49,7 +49,7 @@ export default function Header(props) {
                         <Link href='/'>
                             <div className={style0}>Untitled</div>
                         </ Link>
-                        
+
                     </div>
 
                 <div className="w-0 h-0 overflow-hidden lg:w-max lg:h-10 flex flex-row self-center rounded-lg">
