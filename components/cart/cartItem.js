@@ -3,6 +3,7 @@ import Console from "../product/console";
 export default function CartItem(props) {
 
   return (
+    <>
     <li key={props.product.id} className="py-6 flex">
         <div className="flex-shrink-0 w-24 h-24 flex flex-row justify-center rounded-xl bg-gray-400 bg-opacity-20 overflow-hidden cursor-pointer">
             <div className='p-image4 self-center'>
@@ -34,5 +35,6 @@ export default function CartItem(props) {
             </div>
         </div>
     </li>
+    </>
   );
 }
