@@ -9,7 +9,6 @@ import VariantType1 from '../components/product/variantType1'
 import VariantType2 from '../components/product/variantType2'
 import Console from '../components/product/console'
 import ButtonType1 from '../components/ui/Buttons/buttonType1'
-import ButtonType2 from '../components/ui/Buttons/buttonType2'
 import CardType0 from '../components/ui/Cards/cardType0'
 import SectionHeader1 from '../components/ui/Others/sectionHeader1'
 
@@ -122,9 +121,8 @@ export default function Index() {
                   </div>
                 </div>
 
-                <div className='mt-5 flex flex-row'>
-                  <ButtonType1 text="Ajouter au panier" mr="8px" />
-                  <ButtonType2 text="Favoris" />
+                <div className='mt-5 flex flex-row w-full'>
+                  <ButtonType1 text="Ajouter au panier" customClass="w-full" />
                 </div>
 
                 <div className='mt-5 flex flex-row flex-wrap'>

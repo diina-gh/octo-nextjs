@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 import { ShoppingCartIcon } from '@heroicons/react/outline'
+import CartAddIcon from '../ui/icons/cartAddIcon';
 
 
 
@@ -23,9 +24,8 @@ export default function Product(props) {
                             <div className='w-full text-gray-100 text-xs md:text-base font-medium mt-1'>{props.product.price}</div>
                         </div>
                         <div className="w-8 h-8 md:w-11 md:h-11 rounded-full flex flex-row justify-center cursor-pointer gt-btn-type1 self-center">
-                            {/* <Link  href={'/'} > */}
-                                <ShoppingCartIcon className="h-4 w-4 md:h-5 md:w-5 text-white self-center"/>
-                            {/* </Link> */}
+                            <CartAddIcon customClass="h-4 w-4 md:h-5 md:w-5 text-white self-center" />
+                            {/* <ShoppingCartIcon className="h-4 w-4 md:h-5 md:w-5 text-white self-center"/> */}
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,13 @@
 import React, { Component,Fragment, useState } from 'react';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { UserIcon, ShoppingCartIcon, SearchIcon, HeartIcon,  } from '@heroicons/react/outline'
 import Cart from '../cart/cart';
 import Sidebar from './sidebar';
+import CartIcon from '../ui/icons/cartIcon';
+import UserIcon from '../ui/icons/userIcon';
+import SearchIcon from '../ui/icons/searchIcon';
+import HeartIcon from '../ui/icons/heartIcon';
+import MenuBurgerIcon from '../ui/icons/menuBurgerIcon';
 
 
 const style0 =' text-2xl xl:text-3xl font-bold text-gray-200 self-center';
@@ -38,10 +42,7 @@ export default function Header(props) {
                     
                         <div className="mr-2 text-gray-400 self-center md:hidden">
                             <button onClick={() => setOpen2(true)} className="w-7 h-7 flex items-center px-2 py-2 border rounded text-gray-300 border-gray-300 focus:outline-none">
-                                <svg className="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <title>Menu</title>
-                                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                                </svg>
+                                <MenuBurgerIcon customClass="fill-current h-4 w-4" />
                             </button>
                         </div>
                         <div className={style0}>Untitled</div>
@@ -65,7 +66,7 @@ export default function Header(props) {
                     </div>
 
                     <div className='w-10 xl:w-12 h-10 gt-bg-gradient rounded-r-lg flex flex-row justify-center cursor-pointer'>
-                        <SearchIcon className="w-4 md:w-5 h-4 md:h-5 text-white self-center"/>
+                        <SearchIcon customClass="w-4 md:w-5 h-4 md:h-5 text-white self-center" />
                     </div>
                     
 
@@ -74,15 +75,15 @@ export default function Header(props) {
                 <div className='flex flex-row self-center'>
 
                     <div className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
-                         <UserIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
+                         <UserIcon customClass="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                     </div>
 
                     <div className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
-                        <HeartIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
+                        <HeartIcon customClass="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                     </div>
 
                     <div onClick={() => setOpen(true)} className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
-                        <ShoppingCartIcon className="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
+                        <CartIcon customClass="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
                     </div>
 
 
@@ -94,11 +95,8 @@ export default function Header(props) {
 
                 <div onClick={() => setOpen2(true)} className="flex float-right items-center">
                     <div className="mr-0 text-gray-400">
-                        <button className="flex items-center py-2 text-gtblack border-teal-500 focus:outline-none">
-                            <svg className="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Menu</title>
-                                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                            </svg>
+                        <button className="flex items-center py-2 text-gtblack border-teal-500 focus:outline-none self-center">
+                            <MenuBurgerIcon customClass="fill-current h-4 w-4" />
                         </button>
                     </div>
                     <div className={style2}>
