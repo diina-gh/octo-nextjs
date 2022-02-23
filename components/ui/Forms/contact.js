@@ -6,21 +6,21 @@ export default function ContactForm(props) {
         <div className="w-full text-base">
             <div className="w-full flex flex-row justify-between">
                 <div className="input-48">
-                    <input className="rounded-lg border border-gray-500 shadow-inner w-full bg-white focus:bg-purple-100 focus:bg-opacity-20 h-12 px-3" type="text" name="name" id="name" autoComplete="name" placeholder="Nom complet"/>
+                    <input className="w-full border-0 ring-1 ring-gray-400 focus:ring-gtpurple rounded-lg border border-gray-500 shadow-inner focus:bg-purple-100 focus:bg-opacity-20 h-12 px-3" type="text" name="name" id="name" autoComplete="name" placeholder="Nom complet"/>
                 </div>
                 <div className="input-48">
                     {/* <PhoneInput defaultCountry='SN' smartCaret={true} countryCallingCodeEditable={false} className='rounded-xl border border-gray-600 shadow-inner w-full focus:bg-red-100 focus:bg-opacity-20  h-12 px-3' placeholder="  Téléphone" value={this.state.telephone} onChange={(e) => this.setState({ telephone: e} )}/> */}
-                    <input className="rounded-lg border border-gray-500 shadow-inner w-full focus:bg-purple-100 focus:bg-opacity-20  h-12 px-3" type="number" name="telephone" id="telephone" autoComplete="telephone" placeholder="Téléphone"/>
+                    <input className="w-full border-0 ring-1 ring-gray-400 focus:ring-gtpurple rounded-lg border border-gray-500 shadow-inner focus:bg-purple-100 focus:bg-opacity-20 h-12 px-3" type="number" name="telephone" id="telephone" autoComplete="telephone" placeholder="Téléphone"/>
                 </div>
             </div>
 
             <div className="w-full mt-4">
-                <input className="rounded-lg border border-gray-500 shadow-inner w-full focus:bg-purple-100 focus:bg-opacity-20  h-12 px-3" type="email" name="email" id="email" autoComplete="email" placeholder="Adresse email"/>
+                <input className="w-full border-0 ring-1 ring-gray-400 focus:ring-gtpurple rounded-lg border border-gray-500 shadow-inner focus:bg-purple-100 focus:bg-opacity-20 h-12 px-3" type="email" name="email" id="email" autoComplete="email" placeholder="Adresse email"/>
             </div>
             
 
             <div className="w-full mt-4">
-                <textarea className="w-full border border-gray-500 rounded-lg shadow-inner focus:bg-purple-100 focus:bg-opacity-20 px-3 py-3" type="text" name="message" id="message" autoComplete="message" rows="5" placeholder="Votre message .." ></textarea>
+                <textarea className="w-full border-0 ring-1 ring-gray-400 focus:ring-gtpurple rounded-lg border border-gray-500 shadow-inner focus:bg-purple-100 focus:bg-opacity-20 h-36 px-3 py-3" type="text" name="message" id="message" autoComplete="message" rows="5" placeholder="Votre message .." ></textarea>
             </div>
 
             <div className="mt-4">

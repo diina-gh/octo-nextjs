@@ -56,7 +56,7 @@ export default function Inddex() {
                 </p>
 
                 <p className='text-base font-medium mt-3'>
-                    Nous sommes disponible du <span className="text-gtpurple font-semibold">Lundi au Vendredi</span> Lundi au Vendredi de <span className="text-gtpurple font-semibold">8h à 17h</span> et les <span className="text-gtpurple font-semibold">Samedis</span> de <span className="text-gtpurple font-semibold">9h à 14h 30</span>.
+                    Nous sommes disponible du <span className="text-gtpurple font-semibold">Lundi au Vendredi</span> de <span className="text-gtpurple font-semibold">8h à 17h</span> et les <span className="text-gtpurple font-semibold">Samedis</span> de <span className="text-gtpurple font-semibold">9h à 14h 30</span>.
                 </p>
 
                 <h3 className='mt-5 text-lg font-bold underline'>Nos informations</h3>
