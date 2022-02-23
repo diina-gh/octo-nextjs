@@ -52,7 +52,7 @@ export default function Inddex() {
             <div className='w-full lg:w-6/12 pr-0 lg:pr-10'>
 
                 <p className='text-base font-medium'>
-                    Si vous avez des questions n'hésitez pas à nous contacter par téléphone aux heures d'ouvertures ou par courriel à <span className="text-gtpurple font-semibold">services@untitled.com</span> .
+                    Si vous avez des questions n&#39;hésitez pas à nous contacter par téléphone aux heures d&#39;ouvertures ou par courriel à <span className="text-gtpurple font-semibold">services@untitled.com</span> .
                 </p>
 
                 <p className='text-base font-medium mt-3'>
