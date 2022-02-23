@@ -2,32 +2,29 @@
 export default function ContactForm(props) {
 
   return (
-    <form role="form" method="post">
-        <div className="container p-0 text-base">
+    <form className="w-full" role="form" method="post">
+        <div className="w-full text-base">
             <div className="w-full flex flex-row justify-between">
-                <div className="ii-input2 input-deco">
-                    <input className="rounded-xl border border-gray-600 shadow-inner w-full bg-white focus:bg-red-100 focus:bg-opacity-20 h-12 px-3" type="text" name="name" id="name" autoComplete="name" placeholder="Nom complet"/>
+                <div className="input-48">
+                    <input className="rounded-lg border border-gray-500 shadow-inner w-full bg-white focus:bg-purple-100 focus:bg-opacity-20 h-12 px-3" type="text" name="name" id="name" autoComplete="name" placeholder="Nom complet"/>
                 </div>
-                <div className="ii-input2 input-deco">
+                <div className="input-48">
                     {/* <PhoneInput defaultCountry='SN' smartCaret={true} countryCallingCodeEditable={false} className='rounded-xl border border-gray-600 shadow-inner w-full focus:bg-red-100 focus:bg-opacity-20  h-12 px-3' placeholder="  Téléphone" value={this.state.telephone} onChange={(e) => this.setState({ telephone: e} )}/> */}
-                    <input className="rounded-xl border border-gray-600 shadow-inner w-full focus:bg-red-100 focus:bg-opacity-20  h-12 px-3" type="number" name="telephone" id="telephone" autoComplete="telephone" placeholder="Téléphone"/>
+                    <input className="rounded-lg border border-gray-500 shadow-inner w-full focus:bg-purple-100 focus:bg-opacity-20  h-12 px-3" type="number" name="telephone" id="telephone" autoComplete="telephone" placeholder="Téléphone"/>
                 </div>
             </div>
-            <div className="w-full input-deco flex flex-row justify-between mt-4">
-                <input className="rounded-xl border border-gray-600 shadow-inner w-full focus:bg-red-100 focus:bg-opacity-20  h-12 px-3" type="email" name="email" id="email" autoComplete="email" placeholder="Adresse email"/>
-            </div>
-            
-            <div className="w-full input-deco flex flex-row justify-between mt-4">
-                <input className="rounded-xl border border-gray-600 shadow-inner w-full focus:bg-red-100 focus:bg-opacity-20  h-12 px-3" type="text" name="objet" id="objet" placeholder="Objet" />
+
+            <div className="w-full mt-4">
+                <input className="rounded-lg border border-gray-500 shadow-inner w-full focus:bg-purple-100 focus:bg-opacity-20  h-12 px-3" type="email" name="email" id="email" autoComplete="email" placeholder="Adresse email"/>
             </div>
             
 
-            <div className="input-deco w-full flex flex-row justify-between mt-4">
-                <textarea className="w-full border border-gray-600 rounded-xl shadow-inner focus:bg-red-100 focus:bg-opacity-20 px-3 py-3" type="text" name="message" id="message" autoComplete="message" rows="5" placeholder="Votre message .." ></textarea>
+            <div className="w-full mt-4">
+                <textarea className="w-full border border-gray-500 rounded-lg shadow-inner focus:bg-purple-100 focus:bg-opacity-20 px-3 py-3" type="text" name="message" id="message" autoComplete="message" rows="5" placeholder="Votre message .." ></textarea>
             </div>
 
             <div className="mt-4">
-                <button type="submit" className="ii-btn2 shadow-md transition duration-700 ease-in-out float-right">
+                <button type="reset" className="h-9 md:h-11 rounded-lg shadow-md text-sm md:text-base font-medium text-white gt-btn-type1 cursor-pointer px-8 float-right">
                     ENVOYER
                 </button>
             </div>

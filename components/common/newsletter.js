@@ -9,7 +9,7 @@ export default function Newsletter(props) {
                 <form className='w-full h-full flex flex-col justify-center rounded-xl' method="post" onSubmit=''>
                     <div className="w-full bg-opacity-0 flex flex-col justify-center self-center" >
                         <div className="text-xl md:text-4xl text-center font-medium text-white">Abonnez-vous à notre newsletter</div>
-                        <div className="text-xs md:text-lg text-center font-normal hidden lg:block text-gray-200 mt-1">Soyez les premiers informés de nos actualités, promotions, nouveaux services et conseils.</div>
+                        <div className="text-xs md:text-lg text-center font-normal hidden lg:block text-gray-200 mt-1">Soyez les premiers informés de nos promotions, offres et nouveautés.</div>
                         <div className="w-full flex flex-row justify-center my-5">
                             <div className="w-10/12 md:w-1/2 h-12 md:h-14 bg-white opacity-100 shadow-xl rounded-md px-2 py-2 flex flex-row justify-between border-1 border-gray-200 border-opacity-40">
                                 <div className="h-full w-8/12 md:w-3/4 2xl:w-5/6">
