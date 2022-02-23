@@ -26,14 +26,20 @@ export default function Inddex() {
             <h2 className="max-w-lg mb-2 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
 
                 <span className="relative inline-block z-0">
-                    <svg viewBox="0 0 52 24" fill="currentColor" className="absolute bottom-2 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+
+                    <svg viewBox="0 0 52 24" fill="currentColor" className="absolute bottom-2 left-0 z-0 hidden w-32 -mt-8 -ml-20 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
                         <defs>
+                            <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                                <stop offset="45%" stop-color="#2564eb1e"/>
+                                <stop offset="55%" stop-color="#6d27d769"/>
+                            </linearGradient>
                             <pattern id="70326c9b-4a0f-429b-9c76-792941e326d5" x="0" y="0" width=".135" height=".30">
-                                <circle cx="1" cy="1" r=".7" />
+                                <circle cx="2" cy="1" r=".9" fill="url(#Gradient2)" />
                             </pattern>
                         </defs>
                         <rect fill="url(#70326c9b-4a0f-429b-9c76-792941e326d5)" width="52" height="24" />
                     </svg>
+
                 </span>
 
                 <span className="z-10">Contact</span>
