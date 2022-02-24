@@ -8,7 +8,9 @@ import MarkerIcon from '../components/ui/icons/markerIcon'
 import PhoneIcon from '../components/ui/icons/phoneIcon'
 import EnvelopeIcon from '../components/ui/icons/envelopeIcon'
 import ContactForm from '../components/ui/Forms/contact'
+import SectionHeader2 from '../components/ui/Others/sectionHeader2'
 
+const desc = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
 
 export default function Inddex() {
 
@@ -21,37 +23,7 @@ export default function Inddex() {
 
       <section className='px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 mt-10'>
 
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-
-            <h2 className="max-w-lg mb-2 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-
-                <span className="relative inline-block z-0">
-
-                    <svg viewBox="0 0 52 24" fill="currentColor" className="absolute bottom-2 left-0 z-0 hidden w-32 -mt-8 -ml-20 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
-                        <defs>
-                            <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
-                                <stop offset="45%" stop-color="#2564eb1e"/>
-                                <stop offset="55%" stop-color="#6d27d769"/>
-                            </linearGradient>
-                            <pattern id="70326c9b-4a0f-429b-9c76-792941e326d5" x="0" y="0" width=".135" height=".30">
-                                <circle cx="2" cy="1" r=".9" fill="url(#Gradient2)" />
-                            </pattern>
-                        </defs>
-                        <rect fill="url(#70326c9b-4a0f-429b-9c76-792941e326d5)" width="52" height="24" />
-                    </svg>
-
-                </span>
-
-                <span className="z-10">Contact</span>
-
-            </h2>
-
-            <p className="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque rem aperiam, eaque ipsa quae.
-            </p>
-
-        </div>
+        <SectionHeader2 text="Contact" textColor="text-gray-900" description={desc} />
 
         <div className='w-full mt-4 flex flex-col lg:flex-row justify-between'>
 
