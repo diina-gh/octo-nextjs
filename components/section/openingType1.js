@@ -14,7 +14,7 @@ export default function OpeningType1(props) {
 
             <div className="w-full md:w-5/12 flex-auto">
                 <motion.div 
-                    initial={{ opacity: 45, x: 35 }}
+                    initial={{ opacity: 45, x: -35 }}
                     whileInView={{ opacity: 1, x: 0, transition: { duration: 1.25 }, }}
                 >
                         <img className="w-full float-right mt-5 md:mt-0" src={props.image} />

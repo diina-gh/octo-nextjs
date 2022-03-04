@@ -15,7 +15,7 @@ export default function Promos(props) {
 
             <div className="w-full md:w-5/12 flex-auto">
                     <motion.div 
-                        initial={{ opacity: 75, x: 35 }}
+                        initial={{ opacity: 75, x: -35 }}
                         whileInView={{ opacity: 1, x: 0, transition: { duration: 1.25 }, }}
                     >
                         <img className="w-full float-right mt-5 md:mt-0" src={props.image} />
@@ -41,7 +41,7 @@ export default function Promos(props) {
                     </motion.div> 
 
                     <div className="mt-6 sm:mt-10 flex flex-row justify-start">
-                       <motion.div initial={{ opacity: 0, x: -275 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.80 }, }}>
+                       <motion.div initial={{ opacity: 70, x: -255 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.80 }, }}>
                             <ButtonType0 text="Commander" mr='8px' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0, x: -250 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.75 }, }}>

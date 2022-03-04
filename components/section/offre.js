@@ -14,7 +14,7 @@ export default function Offre(props) {
 
                 <div className="">
                     <motion.div 
-                        initial={{ opacity: 75, x: -35 }}
+                        initial={{ opacity: 75, x: 35 }}
                         whileInView={{ opacity: 1, x: 0, transition: { duration: 1.25 }, }}
                     >
                         <img className="w-full float-right mt-5 md:mt-0" src={props.image} />
