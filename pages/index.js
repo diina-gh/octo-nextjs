@@ -8,6 +8,8 @@ import Footer from "../components/common/footer"
 import Offre from '../components/section/offre'
 import Promos from '../components/section/promos'
 import Newsletter from '../components/common/newsletter'
+import { motion } from "framer-motion";
+
 
 const opening1 = {
   id: 1,
@@ -50,9 +52,14 @@ export default function Home() {
 
       <Promos image={promos1.image} title={promos1.title} description={promos1.description} />
       
-      <Newsletter />
 
-      <Footer/>
+      <motion.div initial={{ opacity: 0, y:100 }} whileInView={{ opacity: 1, y: 0, transition: { duration: 0.75 }, }}>
+        <Newsletter />
+      </motion.div>
+
+      <motion.div initial={{ opacity: 0, y:100 }} whileInView={{ opacity: 1, y: 0, transition: { duration: 0.75 }, }}>
+        <Footer/>
+      </motion.div>
 
     </div>
   )

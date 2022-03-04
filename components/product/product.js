@@ -2,13 +2,22 @@ import React from 'react';
 import Link from 'next/link'
 import { ShoppingCartIcon } from '@heroicons/react/outline'
 import CartAddIcon from '../ui/icons/cartAddIcon';
+import { motion } from "framer-motion";
+
 
 
 
 export default function Product(props) {
     return (
         <Link  href={'/details/' + ''}>
-            <div key={props.product.id}  className="w-full pt-2 md:pt-5 pb-8 md:pb-12 rounded-xl bg-gray-400 bg-opacity-20 cursor-pointer">
+
+
+            <motion.div 
+                initial={{ opacity: 0, x: ( Math.random() * 15) }}
+                whileInView={{ opacity: 1, x: 0, transition: { duration: 1.05 }, }}
+            >
+
+                <div key={props.product.id}  className="w-full pt-2 md:pt-5 pb-8 md:pb-12 rounded-xl bg-gray-400 bg-opacity-20 cursor-pointer">
 
                 <div className='w-full h-32 md:h-56 flex flex-row justify-center'>
                     <div className='p-image self-center'>
@@ -29,8 +38,12 @@ export default function Product(props) {
                         </div>
                     </div>
                 </div>
-                
-            </div>
+
+                </div>
+
+
+            </motion.div>
+
         </Link>
     );
 }

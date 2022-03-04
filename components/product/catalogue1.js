@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Tab } from '@headlessui/react'
 import Product from "./product";
+import { motion } from "framer-motion";
 
 const products = [
 
@@ -161,6 +162,7 @@ export default function Catalogue1(props) {
 
                                 {products.map((item, i) => (
                                     <div key={i}>
+                                      
                                         <Product product={item} />
                                     </div>
                                 ))}
