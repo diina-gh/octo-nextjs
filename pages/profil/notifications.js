@@ -15,7 +15,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
 
-export default function Home() {
+export default function Notifications() {
 
   return (
     <div className="app-container gt-bg1">
