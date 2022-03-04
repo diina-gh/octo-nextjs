@@ -28,7 +28,7 @@ export default function Home() {
 
         <SectionHeader2 text="Mon compte" textColor="text-gray-200" />
 
-        <div className='w-full flex flex-row justify-between mt-5'>
+        <div className='w-full flex flex-row justify-between mt-5 relative'>
 
             <Sidebar />
 

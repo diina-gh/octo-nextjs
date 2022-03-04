@@ -22,7 +22,6 @@ export default function Index() {
 
                         <SectionHeader2 text="Foire Aux Questions" textColor="text-gray-900" description={desc} />
 
-
                     </div>
 
                     <div className="max-w-screen-xl sm:mx-auto">

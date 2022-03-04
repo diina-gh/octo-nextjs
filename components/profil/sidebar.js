@@ -9,7 +9,7 @@ import TimePastIcon from "../ui/icons/timePastIcon";
 export default function Sidebar(props) {
 
   return (
-    <div className="w-64 border border-gray-700 border-opacity-60 rounded-lg py-6 px-6">
+    <div className="w-64 h-max border border-gray-700 border-opacity-60 rounded-lg py-6 px-6 sticky top-20">
 
         <div className="border-b border-slate-200 border-opacity-20 pb-4">
             <div className="w-full flex flex-row justify-center">
