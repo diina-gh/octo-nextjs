@@ -41,12 +41,12 @@ export default function Promos(props) {
                     </motion.div> 
 
                     <div className="mt-6 sm:mt-10 flex flex-row justify-start">
-                       <motion.div initial={{ opacity: 0, x: -255 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.80 }, }}>
+                       {/* <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.80 }, }}> */}
                             <ButtonType0 text="Commander" mr='8px' />
-                        </motion.div>
-                        <motion.div initial={{ opacity: 0, x: -250 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.75 }, }}>
+                        {/* </motion.div> */}
+                        {/* <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.75 }, }}> */}
                             <ButtonType4 text="En savoir +" />
-                        </motion.div>
+                        {/* </motion.div> */}
                     </div>
 
                 </div>

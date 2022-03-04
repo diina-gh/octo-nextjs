@@ -43,12 +43,12 @@ export default function OpeningType1(props) {
 
 
                     <div className="mt-5 sm:mt-8 flex flex-row justify-start">
-                        <motion.div initial={{ opacity: 0, x: -255 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.77 }, }}>
+                        {/* <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.77 }, }}> */}
                             <ButtonType0 text="Commander" mr='8px' />
-                        </motion.div>
-                        <motion.div initial={{ opacity: 0, x: -250 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.75 }, }}>
+                        {/* </motion.div> */}
+                        {/* <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 0.75 }, }}> */}
                             <ButtonType4 text="En savoir +" />
-                        </motion.div>
+                        {/* </motion.div> */}
                     </div>
 
                 </div>
