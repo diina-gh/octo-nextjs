@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function Newsletter(props) {
         return (
+
             <section className="w-full py-16 px-4 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 my-5 md:my-10">
 
                 <div className='w-full h-56 md:h-72 gt-bg4 rounded-2xl'>

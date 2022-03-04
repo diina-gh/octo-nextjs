@@ -14,8 +14,8 @@ export default function Offre(props) {
 
                 <div className="">
                     <motion.div 
-                        initial={{ opacity: 75, x: 35 }}
-                        whileInView={{ opacity: 1, x: 0, transition: { duration: 1.25 }, }}
+                        initial={{ opacity: 75 }}
+                        whileInView={{ opacity: 1, transition: { duration: 1.25 }, }}
                     >
                         <img className="w-full float-right mt-5 md:mt-0" src={props.image} />
 
@@ -43,10 +43,10 @@ export default function Offre(props) {
                         </motion.div>
                         
                         <div className="mt-6 sm:mt-10 flex flex-row justify-start">
-                            <motion.div initial={{ opacity: 0, x: 250 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.75 }, }}>
+                            <motion.div initial={{ opacity: 0, x: 255 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.77 }, }}>
                                 <ButtonType0 text="Commander" mr='8px' />
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, x: 275 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.80 }, }}>
+                            <motion.div initial={{ opacity: 0, x: 255 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 0.77 }, }}>
                                 <ButtonType4 text="En savoir +" />
                             </motion.div>
                         </div>
