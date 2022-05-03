@@ -18,7 +18,7 @@ export default function Footer(props) {
                         <div className="w-full flex flex-row justify-center md:justify-start mb-3">
                             <div className="">
                                 <span className="block lg:inline-block text-3xl font-bold mt-lg-0 mr-0 mr-md-10 no-underline cursor-pointer text-gray-200">
-                                    Untitled
+                                    Octa
                                 </span>
                             </div>
                         </div>

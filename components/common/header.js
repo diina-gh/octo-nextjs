@@ -47,7 +47,7 @@ export default function Header(props) {
                         </div>
 
                         <Link href='/'>
-                            <div className={style0}>Gadget</div>
+                            <div className={style0}>Octa</div>
                         </ Link>
 
                     </div>
