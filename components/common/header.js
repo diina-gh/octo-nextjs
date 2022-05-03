@@ -10,7 +10,7 @@ import HeartIcon from '../ui/icons/heartIcon';
 import MenuBurgerIcon from '../ui/icons/menuBurgerIcon';
 
 
-const style0 =' text-2xl xl:text-3xl font-bold text-gray-200 self-center';
+const style0 =' text-xl xl:text-2xl font-bold text-gray-200 self-center';
 const style1 = 'font-medium text-sm md:text-base mx-3 gt-text-gradient duration-700 ease-in-out cursor-pointer gt-border1';
 const style2 = 'font-medium text-sm md:text-base mx-3 text-gray-900 gt-hover-text-gradient duration-700 ease-in-out cursor-pointer';
 const style4 =' hidden lg:block';
@@ -47,7 +47,13 @@ export default function Header(props) {
                         </div>
 
                         <Link href='/'>
-                            <div className={style0}>Octo</div>
+                            <div className='flex flex-row h-max items-center self-center'>
+                                <div className='h-6 self-center mr-1.5'>
+                                    <img src='logos/logo1.webp' className='h-full' />
+                                </div>
+                                <div className={style0}>Octo</div>
+                            </div>
+                           
                         </ Link>
 
                     </div>

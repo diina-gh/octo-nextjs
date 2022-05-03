@@ -10,16 +10,19 @@ export default function Footer(props) {
     return (
         <footer className="w-full bg-gtblack">
 
-            <div className="bg-gtblack gt-bg4 pt-10 md:pt-20 pb-4 px-7 sm:px-16 md:px-20 lg:px-28 xl:px-36 2xl:px-52 w-full">
+            <div className="bg-gtblack gt-bg4 pt-10 md:pt-20 pb-4 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 w-full">
 
                 <div className="grid grid-cols-2 gap-5 md:grid-cols-4 md:gap-10 m-auto mt-2">
 
                     <div className="col-span-2 md:col-span-1 mb-3 md:mb-0">
                         <div className="w-full flex flex-row justify-center md:justify-start mb-3">
-                            <div className="">
-                                <span className="block lg:inline-block text-3xl font-bold mt-lg-0 mr-0 mr-md-10 no-underline cursor-pointer text-gray-200">
+                            <div className="flex flex-row h-max items-center">
+                                <div className='h-6 self-center mr-1.5'>
+                                    <img src='logos/logo1.webp' className='h-full' />
+                                </div>
+                                <div className="block lg:inline-block text-2xl font-bold mt-lg-0 mr-0 mr-md-10 no-underline cursor-pointer text-gray-200">
                                     Octo
-                                </span>
+                                </div>
                             </div>
                         </div>
 
