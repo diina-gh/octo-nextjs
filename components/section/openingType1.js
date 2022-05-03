@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function OpeningType1(props) {
 
   return (
-    <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48">
+    <section className="ii-present flex justify-center bg-gray-100 bg-opacity-5 px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 overflow-x-hidden">
 
         <div className="w-full flex flex-col md:flex-row-reverse justify-between items-center">
 

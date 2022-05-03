@@ -9,7 +9,7 @@ export default function Promos(props) {
 
   return (
 
-    <section className="flex justify-center px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 my-5  md:my-10">
+    <section className="flex justify-center px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 my-5 md:my-10 overflow-x-hidden">
 
         <div className="flex flex-col md:flex-row-reverse justify-between items-center">
 
