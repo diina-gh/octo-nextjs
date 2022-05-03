@@ -48,7 +48,7 @@ export default function Header(props) {
 
                         <Link href='/'>
                             <div className='flex flex-row h-max items-center self-center'>
-                                <div className='h-6 self-center mr-1.5'>
+                                <div className='h-[1.65rem] self-center mr-1.5'>
                                     <img src='logos/logo1.webp' className='h-full' />
                                 </div>
                                 <div className={style0}>Octo</div>

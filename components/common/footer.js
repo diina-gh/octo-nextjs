@@ -17,7 +17,7 @@ export default function Footer(props) {
                     <div className="col-span-2 md:col-span-1 mb-3 md:mb-0">
                         <div className="w-full flex flex-row justify-center md:justify-start mb-3">
                             <div className="flex flex-row h-max items-center">
-                                <div className='h-6 self-center mr-1.5'>
+                                <div className='h-[1.65rem] self-center mr-1.5'>
                                     <img src='logos/logo1.webp' className='h-full' />
                                 </div>
                                 <div className="block lg:inline-block text-2xl font-bold mt-lg-0 mr-0 mr-md-10 no-underline cursor-pointer text-gray-200">
