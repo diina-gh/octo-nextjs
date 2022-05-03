@@ -38,7 +38,7 @@ const promos1 = {
 export default function Home() {
 
   return (
-    <div className="app-container gt-bg1 overflow-x-hidden overflow-y-scroll">
+    <div className="app-container gt-bg1">
 
       <HeadInfo title= 'Title here' description='description here'/>
 
