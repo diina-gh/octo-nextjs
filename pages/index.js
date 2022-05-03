@@ -52,15 +52,15 @@ export default function Home() {
 
       <Promos image={promos1.image} title={promos1.title} description={promos1.description} />
       
-
       <motion.div initial={{ opacity: 0.75 }} whileInView={{ opacity: 1, transition: { duration: 0.75 }, }}>
         <Newsletter />
       </motion.div>
 
       <motion.div initial={{ opacity: 0.75 }} whileInView={{ opacity: 1,transition: { duration: 0.75 }, }}>
-        <Footer/>
+        <Footer />
       </motion.div>
 
     </div>
   )
 }
+
