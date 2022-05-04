@@ -35,7 +35,7 @@ export default function Header(props) {
     return (
         <header className="w-full">
 
-            <div className='fixed top-0 left-0 right-0 w-full h-16 bg-gtblack bg-opacity-[0.985] z-20 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48'>
+            <div className='fixed top-0 left-0 right-0 w-full h-16 bg-gtblack bg-opacity-[0.99] z-20 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48'>
 
                 
                     <div className="flex flex-row self-center cursor-pointer">
@@ -102,7 +102,7 @@ export default function Header(props) {
 
             </div>
 
-            <div className="bg-gray-400 w-0 h-0 md:w-full md:h-10 mt-16 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 overflow-hidden">
+            <div className="bg-gray-400 bg-opacity-60 w-0 h-0 md:w-full md:h-10 mt-16 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 overflow-hidden">
 
                 <div onClick={() => setOpen2(true)} className="flex float-right items-center">
                     <div className="mr-0 text-gray-400">
