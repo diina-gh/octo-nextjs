@@ -57,7 +57,7 @@ export default function Home() {
 
                                 <div className="grid grid-cols-2 gap-10">
 
-                                    <div className='h-52 rounded-lg border-2 border-slate-200 border-opacity-20 hover:border-gtpurple p-5'>
+                                    <div className='h-52 rounded-lg border-2 border-slate-200 border-opacity-20 hover:border-gtpurple p-5 transition duration-700 ease-in-out hover:shadow-inner hover:shadow-purple-100/10'>
 
                                         <div className='flex flex-row justify-between'>
                                             <div className='text-lg text-gray-200 font-semibold self-center'>Informations personnelles</div>
@@ -85,7 +85,7 @@ export default function Home() {
 
                                     </div>
 
-                                    <div className='h-52 rounded-lg border-2 border-slate-200 border-opacity-20 hover:border-gtpurple  p-5'>
+                                    <div className='h-52 rounded-lg border-2 border-slate-200 border-opacity-20 hover:border-gtpurple transition duration-700 ease-in-out hover:shadow-inner hover:shadow-purple-100/10 p-5'>
 
                                         <div className='flex flex-row justify-between'>
                                             <div className='text-lg text-gray-200 font-semibold self-center'>Adresse par défaut</div>
@@ -112,7 +112,7 @@ export default function Home() {
 
                                     </div>
 
-                                    <div className='h-52 rounded-lg border-2 border-slate-200 border-opacity-20 hover:border-gtpurple p-5'>
+                                    <div className='h-52 rounded-lg border-2 border-slate-200 border-opacity-20 hover:border-gtpurple transition duration-700 ease-in-out hover:shadow-inner hover:shadow-purple-100/10 p-5'>
 
                                         <div className='flex flex-row justify-between'>
                                             <div className='text-lg text-gray-200 font-semibold self-center w-48 h-3 rounded-lg bg-slate-200 bg-opacity-20 animate-pulse'></div>

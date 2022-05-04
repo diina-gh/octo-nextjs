@@ -33,9 +33,9 @@ export default function Header(props) {
 
 
     return (
-        <header className="w-full bg-gray-100 bg-opacity-0">
+        <header className="w-full">
 
-            <div className='fixed top-0 left-0 right-0 w-full h-16 bg-gtblack z-20 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48'>
+            <div className='fixed top-0 left-0 right-0 w-full h-16 bg-gtblack bg-opacity-[0.99] z-20 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48'>
 
                 
                     <div className="flex flex-row self-center cursor-pointer">
@@ -83,9 +83,11 @@ export default function Header(props) {
 
                 <div className='flex flex-row self-center'>
 
-                    <div className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
-                         <UserIcon customClass="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
-                    </div>
+                    <Link href='profil'>
+                        <div className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
+                            <UserIcon customClass="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
+                        </div>
+                    </Link>
 
                     <div className="w-7 md:w-8 h-7 md:h-8 rounded-full  flex flex-row justify-center cursor-pointer gt-btn-type1 mr-2">
                         <HeartIcon customClass="w-3 md:w-4 h-3 md:h-4 text-white self-center"/>
@@ -100,7 +102,7 @@ export default function Header(props) {
 
             </div>
 
-            <div className="bg-gray-400 bg-opacity-40 w-0 h-0 md:w-full md:h-10 mt-16 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 overflow-hidden">
+            <div className="bg-gray-400 w-0 h-0 md:w-full md:h-10 mt-16 flex flex-row justify-between px-7 sm:px-16 md:px-20 lg:px-24 xl:px-28 2xl:px-48 overflow-hidden">
 
                 <div onClick={() => setOpen2(true)} className="flex float-right items-center">
                     <div className="mr-0 text-gray-400">
