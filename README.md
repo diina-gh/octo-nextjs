@@ -13,7 +13,7 @@ npm run dev
 yarn dev
 ```
 
-Solarized dark             |  Solarized Ocean
+Cart             |  Contact
 :-------------------------:|:-------------------------:
 ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image2.png)  |  ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image3.png)
 
@@ -25,6 +25,11 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+
+Cart             |  Contact
+:-------------------------:|:-------------------------:
+![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image3.png)  |  ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image4.png)
 
 ## Learn More
 
