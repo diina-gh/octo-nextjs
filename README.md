@@ -13,8 +13,7 @@ npm run dev
 yarn dev
 ```
 
-![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image2.png)
-![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image3.png)
+![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image2.png)  | ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image3.png)
 
 
 
