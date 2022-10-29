@@ -27,7 +27,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 
-Faq             |  Contact   |  Test
+Faq             |  Search   |  Detail
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image4.png)  |  ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image5.png) |  ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image6.png)
 
