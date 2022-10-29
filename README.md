@@ -13,8 +13,9 @@ npm run dev
 yarn dev
 ```
 
-![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image2.png)  | ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image3.png)
-
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image2.png)  |  ![Image](https://github.com/diina-gh/store/blob/main/public/images/app/image3.png)
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
